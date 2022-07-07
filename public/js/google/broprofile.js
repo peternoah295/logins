@@ -303,3 +303,13 @@ function markCompleted(id){
 }
 
 getItems();
+
+
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1 || ua.indexOf('edg') > -1) {
+    document.getElementById('edit-info').style.display = 'block'
+  } else {
+    document.getElementById('edit-info').style.display = 'none'
+  }
+}
