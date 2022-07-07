@@ -1,0 +1,79 @@
+.port h4 {
+	background: rgba(18, 29, 51, 0.49);
+	text-align: center;
+}
+.port h4 a {
+	color: rgba(255, 255, 255, 0.92);
+	font-size: 25px;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+}
+.port h4 a.boa {
+	font-size: 23px;
+}
+.port a img {
+	width: 400px;
+	height: 165px;
+}
+@media screen and (max-width: 996px) {
+	.port a img {
+		width: 100%;
+		height: 250px;
+	}
+	.port h4 a {
+		font-size: 36px;
+	}
+	.port h4 a.boa {
+		font-size: 36px;
+	}
+}
+@media screen and (max-width: 506px) {
+	.port a img {
+		width: 400px;
+		height: 120px;
+	}
+	.port h4 a {
+		font-size: 19px;
+	}
+	.port h4 a.boa {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 396px) {
+	.port a img {
+		width: 400px;
+		height: 120px;
+	}
+	.port h4 a {
+		font-size: 18px;
+	}
+	.port h4 a.boa {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 376px) {
+	.port a img {
+		width: 400px;
+		height: 120px;
+	}
+	.port h4 a {
+		font-size: 17px;
+	}
+	.port h4 a.boa {
+		font-size: 16px;
+	}
+}
+.therow {
+	margin: 67px -15px 0 -15px;
+}
+@media screen and (max-width: 906px) {
+	.therow {
+		margin: 80px -15px 0 -15px;
+	}
+}
+#profileModal .dataTables_wrapper .dataTables_filter, 
+#profileModal .dataTables_wrapper .dataTables_length, 
+#profileModal .dataTables_wrapper .dataTables_paginate, 
+#profileModal .dataTables_wrapper .dataTables_info {
+	display: none !important;
+}
