@@ -2067,3 +2067,42 @@ label.error {
   font-size: 20px !important;
   font-weight: 600 !important;
 }
+
+
+#update-profile{
+  margin: 0;
+  border: 1px solid #ced4da;
+  color: #121d33;
+  background: yellow;
+  font-size: 17px;
+  font-weight: 600 !important;
+  padding: 5px !important;
+  width: 120px !important;
+  height: 44px !important;
+  text-transform: none !important;
+}
+#update-profile img{
+  position: relative; 
+  width: 17px; 
+  margin-left: 3px;
+}
+
+
+
+
+
+#nameBro, #new-name, #new-photo, textarea{
+  width: 100%;
+}
+#nameBro, #new-name, #new-photo{
+  border: 1px solid lightblue; 
+  padding: 5px; 
+  background: white !important; 
+  border-radius: 0 !important;
+}
+#new-name{
+  font-weight: 600 !important; 
+  font-size: 17px !important; 
+  color: #121d33 !important;
+  height: 44px !important;
+}
