@@ -53,6 +53,14 @@ logOut.addEventListener('click', () => {
   })
 })
 
+fetch('https://ipapi.co/json/')
+.then(function(response) {
+  return response.json();
+})
+.then(function(data) {
+  document.getElementById('footer-email').innerHTML = `Your IP address: ${data.ip}, ${data.city}, ${data.country_name}, ${data.org}, ${data.region}`;
+});
+
 
 document.getElementById("thebodyz").oncontextmenu = function() {
   return false

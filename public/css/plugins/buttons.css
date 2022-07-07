@@ -2062,3 +2062,8 @@ label.error {
   width: 21px;
   opacity: 0.81;
 }
+
+#footer-email{
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
