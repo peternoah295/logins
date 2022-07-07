@@ -1,0 +1,33 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 30s linear infinite
+}
+
+@keyframes animatedBackground{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:100% 0
+    }
+}
+#style-switcher{
+    top: 24%;
+}
+@media (max-width:592px){
+    #style-switcher{
+        top: 19%;
+    }
+}
+#particles-js{
+    height:100% !important;
+}
+.therow{
+    margin-top: 53px;
+}
+@media screen and (max-width: 906px) {
+    .therow{
+        margin-top: 76px;
+    }
+}

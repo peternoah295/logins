@@ -1,0 +1,443 @@
+html {
+	background: #121d33 !important;
+  }
+  body {
+	overflow: hidden !important;
+	height: 100vh !important;
+	width: 100vw !important;
+	background: url(../../img/content/home12.jpg);
+  }
+  .opacity-full-dark {
+	height: 100vh !important;
+	width: 100vw !important;
+	background-color: rgba(0, 0, 0, 0.85);
+  }
+  .logo {
+	width: 210px;
+	margin-bottom: 28px;
+  }
+  .button-div {
+	text-align: center !important;
+	margin-bottom: 25px !important;
+  }
+  .button-div-404 {
+	text-align: center !important;
+	margin-bottom: 50px !important;
+  }
+  .btn {
+	border: 2px solid transparent;
+	line-height: inherit;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 0;
+	background: yellow;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	letter-spacing: 0.5px;
+	font-family: "Montserrat", sans-serif;
+	display: inline-block;
+	line-height: 26px;
+	text-transform: capitalize;
+	color: #121d33;
+	position: relative;
+	text-align: center;
+	font-weight: 700;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	padding: 13px;
+	font-size: 24px;
+  }
+  .btn:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500%;
+	height: 1000%;
+	background: rgba(255, 255, 255, 0.3);
+	z-index: -1;
+	transform-origin: 0% 0%;
+	transform: translateX(calc(20% - 20px)) translateY(10%) rotate(-45deg);
+	transition: transform 0.3s;
+  }
+  .btn:hover:after {
+	transform: translateY(10%) translateX(-20px) rotate(-45deg);
+  }
+  .btn i {
+	margin-left: 6px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+  }
+  .btn:hover,
+  .btn:active,
+  .btn:focus {
+	background-color: #000 !important;
+	color: aqua !important;
+	box-shadow: none !important;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  .banner-words-wrapper {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	margin-bottom: 30px;
+	text-align: center;
+  }
+  .index-p {
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+  }
+  .separator {
+	width: 50px;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.7);
+	margin-bottom: 25px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .banner-words-wrapper b {
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+  }
+  .banner-words-wrapper b {
+	display: inline-block;
+	position: absolute;
+	white-space: nowrap;
+	left: 0;
+	top: 0;
+	text-transform: uppercase;
+	font-size: 58px;
+  }
+  .banner-words-wrapper b.is-visible {
+	position: relative;
+  }
+  .banner-headline {
+	margin: 0;
+	color: aqua;
+  }
+  .banner-headline b {
+	opacity: 0;
+  }
+  .banner-headline b.is-visible {
+	opacity: 1;
+  }
+  .banner-headline .banner-words-wrapper:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 90%;
+	background-color: rgba(255, 255, 255, 0.65);
+  }
+  @media screen and (max-width: 767px) {
+	.banner-words-wrapper b {
+	  font-size: 32px;
+	}
+  }
+  #particles-js {
+	position: absolute !important;
+	width: 100% !important;
+	height: 100% !important;
+	z-index: 2 !important;
+  }
+  #exampleInputEmail,
+  #code {
+	border-radius: 0 !important;
+	outline: 4px;
+	font-size: 21px !important;
+	box-shadow: 0 0 0 2px rgba(135, 206, 235, 0.7);
+	margin: 7px auto !important;
+	width: 100% !important;
+  }
+  @media screen and (min-width: 821px) {
+	.modal-dialog {
+	  top: 7vh !important;
+	  width: 35vw !important;
+	}
+  }
+  @media screen and (max-width: 821px) {
+	.modal-dialog {
+	  top: 15vh !important;
+	}
+  }
+  #signUp,
+  #signPhone,
+  #signInWithPhone {
+	background: aqua !important;
+	border: 1px solid rgba(135, 206, 235, 0.7) !important;
+	font-size: 20px !important;
+	color: #121d33 !important;
+  }
+  #getCode {
+	background: aqua !important;
+	border: 1px solid rgba(135, 206, 235, 0.7) !important;
+	font-size: 20px !important;
+	color: #121d33 !important;
+  }
+  .bg-animate {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	animation: animatedBackground 30s linear infinite;
+	padding: 0;
+  }
+  @keyframes animatedBackground {
+	from {
+	  background-position: 0 0;
+	}
+	to {
+	  background-position: 100% 0;
+	}
+  }
+  ::placeholder {
+	color: darkslategrey !important;
+	opacity: 1;
+  }
+  :-ms-input-placeholder {
+	color: #121d33 !important;
+  }
+  ::-ms-input-placeholder {
+	color: #121d33 !important;
+  }
+  #loginModal .modal-content {
+	background: rgba(18, 29, 51, 0.92);
+	border-radius: 0 !important;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
+  }
+  #loginModal .modal-header {
+	border-bottom: none;
+  }
+  #loginModal .close img {
+	width: 30px;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	opacity: 0.7 !important;
+	border-radius: 50%;
+  }
+  #loginModal .close img:hover {
+	opacity: 1 !important;
+  }
+  #loginModal .modal-body {
+	padding: 0;
+  }
+  #loginModal .section-heading h4 {
+	font-size: 27px;
+	color: #fff;
+  }
+  #loginModal h4 {
+	position: relative;
+	padding-bottom: 5px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	position: relative;
+	line-height: 140%;
+	color: white;
+	margin-bottom: -7px !important;
+  }
+  #loginModal h4:after {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 2px;
+	background: rgba(0, 255, 255, 0.7);
+	border-radius: 0;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+  #loginModal .modal-body {
+	margin: 0 auto !important;
+  }
+  #loginModal .modal-body p {
+	margin: 17px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Montserrat", sans-serif;
+  }
+  #loginModal .next {
+	margin: 10px auto !important;
+	text-align: center !important;
+	list-style-type: none !important;
+  }
+  #phoneModal .modal-content {
+	background: rgba(18, 29, 51, 0.92);
+	border-radius: 0 !important;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
+  }
+  #phoneModal .modal-header {
+	border-bottom: none;
+  }
+  #phoneModal .close img {
+	width: 30px;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	opacity: 0.7 !important;
+	border-radius: 50%;
+  }
+  #phoneModal .close img:hover {
+	opacity: 1 !important;
+  }
+  #phoneModal .modal-body {
+	padding: 0;
+  }
+  #phoneModal .section-heading h4 {
+	font-size: 27px;
+	color: #fff;
+  }
+  #phoneModal h4 {
+	position: relative;
+	padding-bottom: 5px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	position: relative;
+	line-height: 140%;
+	color: white;
+	margin-bottom: -7px !important;
+  }
+  #phoneModal h4:after {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 2px;
+	background: rgba(0, 255, 255, 0.7);
+	border-radius: 0;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+  #phoneModal .modal-body {
+	margin: 0 auto !important;
+  }
+  #phoneModal .modal-body p {
+	margin: 17px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Montserrat", sans-serif;
+  }
+  #phoneModal #phoneNumber {
+	font-size: 20px !important;
+	border: 1px solid lightgray !important;
+	padding: 24px !important;
+	width: 90% !important;
+  }
+  #phoneModal #next-btn {
+	margin: 10px auto !important;
+	text-align: center !important;
+	list-style-type: none;
+  }
+  #codeModal .modal-content {
+	background: rgba(18, 29, 51, 0.92);
+	border-radius: 0 !important;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
+  }
+  #codeModal .modal-header {
+	border-bottom: none;
+  }
+  #codeModal .close img {
+	width: 30px;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	opacity: 0.7 !important;
+	border-radius: 50%;
+  }
+  #codeModal .close img:hover {
+	opacity: 1 !important;
+  }
+  #codeModal .modal-body {
+	padding: 0;
+  }
+  #codeModal .section-heading h4 {
+	font-size: 27px;
+	color: #fff;
+  }
+  #codeModal h4 {
+	position: relative;
+	padding-bottom: 5px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	position: relative;
+	line-height: 140%;
+	color: white;
+  }
+  @media screen and (max-width: 780px) {
+	#codeModal h4 {
+	  font-size: 24px !important;
+	}
+  }
+  @media screen and (max-width: 380px) {
+	#codeModal h4 {
+	  font-size: 22px !important;
+	}
+  }
+  #codeModal h4:after {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 2px;
+	background: rgba(0, 255, 255, 0.7);
+	border-radius: 0;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+  #codeModal .modal-body {
+	margin: 0 auto !important;
+  }
+  #codeModal .modal-body p {
+	margin: 17px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Montserrat", sans-serif;
+  }
+  #codeModal #next-btn {
+	margin: 10px auto !important;
+	text-align: center !important;
+	list-style-type: none;
+  }
+  #the-div {
+	display: flex !important;
+	height: 70px !important;
+  }
+  #the-flag {
+	width: 20% !important;
+	border: 1px solid rgba(135, 206, 235, 0.7);
+	height: 61px !important;
+	margin: auto 7px !important;
+  }
+  #phoneNumber {
+	border-radius: 1px !important;
+	font-size: 21px !important;
+	box-shadow: 0 0 0 1.7px rgba(135, 206, 235, 0.7);
+	padding: 0 !important;
+	width: 80% !important;
+	height: 61px !important;
+	margin: auto 7px !important;
+  }
+  @media screen and (max-width: 821px) {
+	#the-flag {
+	  width: 21% !important;
+	}
+	#phoneNumber {
+	  width: 79px !important;
+	}
+  }
+  #recaptcha-container {
+	margin-top: 10px !important;
+	margin: 7px;
+  }
+  
