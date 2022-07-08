@@ -84,6 +84,16 @@ auth.onAuthStateChanged(user => {
 		}
     } 
 });
+fetch('https://ipapi.co/json/')
+.then(function(response) {
+  return response.json();
+})
+.then(function(data) {
+  document.getElementById('footer-email').innerHTML = `
+    Your IP address: ${data.ip}, ${data.city}, ${data.country_name}, ${data.org}, ${data.region}, ${data.country_calling_code}
+    <img src="https://countryflagsapi.com/png/${data.country_code}" id="the-flag" />
+    `;
+});
 
 document.getElementById("thebodyz").oncontextmenu = function() {
 	return false
