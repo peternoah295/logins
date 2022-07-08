@@ -209,9 +209,8 @@ storageRef.put(file).on('state_changed', (snapshot) => {
           photoURL: url
       })
       .then(() => {
-          document.getElementById('logo').setAttribute("src", user.photoURL);
-          document.getElementById('logo').style.borderRadius = '50%';
           alert('Profile Updated Successfully !');
+          document.getElementById('logo').setAttribute("src", user.photoURL);
       })
       .catch(error => {
           console.error(error);
