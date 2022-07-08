@@ -1,3 +1,9 @@
+body{
+  background: #121d33 !important;
+}
+.main-wrapper{
+  background: transparent !important;
+}
 .therow {
 	margin: 63px -15px 0 -15px;
 }
@@ -95,4 +101,10 @@
 .tab-pane.active{
   text-align: center !important;
   margin: 7px auto !important;
+}
+
+.nav-fill{
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
 }
