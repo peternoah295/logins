@@ -85,7 +85,22 @@ auth.onAuthStateChanged(user => {
 				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = user.phoneNumber;
 			}
 		}
-    } 
+    } else if(user.isAnonymous){
+      jinaHolder.innerText = 'Anonymous';
+      jinaHolder2.innerText = 'User ID: ' + user.uid;
+      tableidHolder.value = "Name: Anonymous";
+  
+      email1.innerHTML = `Bank log files can only be downloaded <strong>ONCE</strong>, save them in a folder you won't forget`;
+      email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+      email5.innerHTML = `Logged in anonymously, no email invoice will be sent`;
+  
+      if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)){
+        goodies = JSON.parse(localStorage.getItem('banklogs'));
+        for(var i = 0; i < goodies.length; i++) {
+          document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = 'Anonymous';
+        }
+      } 
+    }
 });
 fetch('https://ipapi.co/json/')
 .then(function(response) {
