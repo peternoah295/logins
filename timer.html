@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <style>
-#Progress_Status {
-width: 100vw;
-background-color: #ddd;
+body{
+    background: #121d33;
 }
-
-#myprogressBar {
-    width: 100%;
+#progress {
+    width: 200px;
     height: 20px;
     background-color: #4CAF50;
     text-align: center !important;
@@ -16,14 +14,11 @@ background-color: #ddd;
 </style>
 <body>
 
-<h3>Example of Progress Bar Using JavaScript</h3>
 
-<p>Download Status of a File:</p>
-
-<div id="Progress_Status">
-<div id="myprogressBar">
-    400
-</div>
+<div id="progress">
+    <span id="escoz">
+        Time Left: 10:00
+    </span>
 </div>
 
 <br>
@@ -31,18 +26,26 @@ background-color: #ddd;
 
 <script>
 function update() {
-var element = document.getElementById("myprogressBar");
-var width = 100;
-var identity = setInterval(scene, 100);
+var element = document.getElementById("progress");
+var width = 60;
+var identity = setInterval(scene, 1000);
 function scene() {
 	if (width <= 10) {
 	    clearInterval(identity);
 	} else {
 	    width--;
-	    element.style.width = width + '%';
+        var minutes = Math.floor(width/60);
+        var seconds = width - minutes * 60;
+        if(seconds < 10){
+            seconds = '0'+seconds
+        }
+        element.style.width = (width/6) + "%";
+        document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
 	}
 }
 }
+
+
 </script>
 
 </body>
