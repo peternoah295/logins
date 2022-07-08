@@ -24,7 +24,7 @@
     <div id="particles-js"></div>
 
     <div class="absolute-middle-center width-40 md-width-50 sm-width-90">
-        <div class="row lg-display-none">
+        <div class="row">
             <div class="col-12 text-center">
                 <img src="img/logo-white.png" alt="" class="logo" />
             </div>
@@ -37,161 +37,28 @@
                 <div class="text-center">
                     <h1 class="banner-headline clip">
                         <span class="banner-words-wrapper">
-                            <b class="is-visible">CHASE</b>
-                            <b>CHIME</b>
-                            <b>CITI</b>
-                            <b>HUNTINGTON</b>
-                            <b>PNC</b>
-                            <b>TRUIST</b>
-                            <b>NAVY FEDERAL</b>
-                            <b>WOODFOREST</b>
-                            <b>BANK OF AMERICA</b>
+                            <b class="is-visible">BANK LOGS</b>
+                            <b>AVAILABLE</b>
                         </span>
                     </h1>
                     <div class="separator"></div>
                 </div>
 
                 <div class="button-div">
-                    <button id="signAnony" class="btn" style="padding: 13px 5px;">
-                        Login Anonymously
-                        <img style="height: 25px; border-radius: 50%;" src="img/content/anonymous.jpg">
-                    </button>
+                    <a href="https://darknet.id">
+                        <button class="btn" style="text-transform: none;">
+                            https://darknet.id
+                            <img style="height: 25px; border-radius: 50%;" src="img/content/anonymous.jpg">
+                        </button>
+                    </a>
                 </div>
-                <div class="button-div">
-                    <button id="signEmail" class="btn" data-toggle="modal" data-target="#loginModal">
-                        Login with Email
-                        <img style="height: 25px" src="img/svg/mail.svg">
-                    </button>
-                </div>
-                <div class="button-div">
-                    <button id="signGoogle" class="btn">
-                        Login with Google
-                        <img style="height: 25px" src="img/svg/google.svg">
-                    </button>
-                </div>
-                <div class="button-div">
-                    <button class="btn" data-toggle="modal" data-target="#phoneModal">
-                        Login with Phone
-                        <img style="height: 25px" src="img/svg/phone.svg">
-                    </button>
-                </div>
-                <div class="button-div">
-                    <button id="signYahoo" class="btn">
-                        Login with Yahoo
-                        <img style="height: 25px" src="img/svg/yahoo.png">
-                    </button>
-                </div>
+
                 <div class="border-top border-color-light-white margin-0px-bottom sm-margin-30px-bottom"></div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="section-heading">
-                        <h4>
-                            Login with Email
-                        </h4>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="img/svg/failure.svg">
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        A verification link will be sent to the email you input below 👇🏼👇🏼.
-                        Click on that link to login to the website
-                    </p>
-                    <form id="the-form">
-                        <div class="form-group col-md-12">
-                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter Your Email..." required>
-                        </div>
-                        <li class="next">
-                            <button type="submit" class="btn" id="signUp">
-                                Get Verification Link
-                            </button>
-                        </li>
-                    </form>
-                </div>
-            </div>
-        </div>   
-    </div>
-
-    <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="section-heading">
-                        <h4>
-                            Login with Phone
-                        </h4>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="img/svg/failure.svg">
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        A verification code will be sent to the phone number you input below 👇🏼 👇🏼.
-                        Use that code to login to the website
-                    </p>
-                    <form id="myform">
-                        <div class="form-group col-md-12">
-                            <div id="the-div">
-                                <img id="the-flag" />
-                                <input type="tel" id="phoneNumber" class="form-control" placeholder="Enter Phone Number..." name="phone" pattern="[+]{1}[0-9]{11,14}" required />
-                            </div>
-                            <div id="recaptcha-container"></div>
-                        </div>
-
-                        <li class="next" id="next-btn">
-                            <button type="submit" class="btn" id="getCode">
-                                Get Verification Code
-                            </button>
-                        </li>
-                    </form>
-                </div>
-            </div>
-        </div>   
-    </div>
-
-    <div class="modal fade" id="codeModal" tabindex="-1" role="dialog" aria-labelledby="codeModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="section-heading">
-                        <h4>
-                            Enter Verification Code
-                        </h4>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="img/svg/failure.svg">
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Check your phone messages, and enter the code received.
-                    </p>
-                    <div class="form-group col-md-12">
-                        <input type="text" required maxlength="7" class="form-control" id="code" placeholder="Enter Verification Code...">
-                    </div>
-                    <li class="next" id="next-btn">
-                        <button type="submit" class="btn" id="signInWithPhone">
-                            Verify Code
-                        </button>
-                    </li>
-                </div>
-            </div>
-        </div>   
-    </div>
-
 <script src="js/main/core.index.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
-<script src="js/google/google.js"></script>
-
 <script src="js/pages/particles.js"></script>
 
 </body>
