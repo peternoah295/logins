@@ -49,7 +49,11 @@ auth.onAuthStateChanged(user => {
     invoiceHolder.innerHTML = `
       Invoice to: ${user.phoneNumber}
     `
-  } 
+  } else if(user.isAnonymous){
+    jinaHolder.innerText = user.phoneNumber;
+    jinaHolder2.innerText = 'User ID: ' + user.uid;
+    invoiceHolder.innerHTML = `User ID: ` + user.uid;
+  }
 });
 
 document.getElementById("thebodyz").oncontextmenu = function() {
