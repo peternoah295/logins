@@ -30,7 +30,7 @@ const signUpFunction = () => {
   event.preventDefault();
   const email = mailField.value;
   var actionCodeSettings = {
-      url: 'https://darknet.id',
+      url: 'https://logins.id',
       handleCodeInApp: true,
   };
   auth.sendSignInLinkToEmail(email, actionCodeSettings)
