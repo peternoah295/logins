@@ -28,6 +28,24 @@ $(document).ready(function() {
             document.getElementById('prev').style.display = 'block';
             document.getElementById('next').style.display = 'none';
 
+            var amount = document.getElementById('the-input').value;
+            localStorage.setItem('the-bitcoin', amount);
+
+            document.getElementById('modal-amount').innerText = 'Send $'+ amount;
+
+            let binance = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@kline_1h");
+            let bitcoin = document.getElementById("satoshinakamoto");
+
+            binance.onmessage = event => {
+                let confirm = JSON.parse(event.data);
+                bitcoin.innerHTML = `
+                <i class="fas fa-spin fa-sync-alt spinner-bordez"></i> awaiting 
+                <span id="the-one">
+                    ${(localStorage.getItem('the-bitcoin') / parseFloat(confirm.k.c)).toFixed(5)}
+                </span> bitcoin payment
+                `;
+            }
+
             localStorage.setItem('add-left',600)
             var wide = localStorage.getItem('add-left');
 
@@ -48,6 +66,10 @@ $(document).ready(function() {
             }
         },
         'onPrevious': function(tab, navigation, index) {
+            document.getElementById('prev').style.display = 'none';
+            document.getElementById('next').style.display = 'block';
+        },
+        'onFirst': function(tab, navigation, index) {
             document.getElementById('prev').style.display = 'none';
             document.getElementById('next').style.display = 'block';
         },
