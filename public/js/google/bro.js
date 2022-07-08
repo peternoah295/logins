@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyCzTqc9KOUqf2DgiCKsryrrXhreaf23-4Y",
-  authDomain: "darknet-banklogs.firebaseapp.com",
-  projectId: "darknet-banklogs",
-  storageBucket: "darknet-banklogs.appspot.com",
-  messagingSenderId: "289032950517",
-  appId: "1:289032950517:web:9ca5026d49bec122df6bbc",
-  measurementId: "G-XT67H0TT2V"
+  apiKey: "AIzaSyBBN4elJRDCog-yjgPa9pM0ZDr5fKlYvNA",
+  authDomain: "logins-id7.firebaseapp.com",
+  projectId: "logins-id7",
+  storageBucket: "logins-id7.appspot.com",
+  messagingSenderId: "353868186617",
+  appId: "1:353868186617:web:ad7a3ea8742687c4c73328",
+  measurementId: "G-Q32JQJ2BDH"
 };
 firebase.initializeApp(firebaseConfig);
 
