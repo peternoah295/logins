@@ -133,8 +133,7 @@ fetch('https://ipapi.co/json/')
   return response.json();
 })
 .then(function(data) {
-  document.getElementById('the-flag').src = `https://countryflagsapi.com/png/${data.country_code};
-    `;
+  document.getElementById('the-flag').src = `https://countryflagsapi.com/png/${data.country_code}`;
 });
 
 
