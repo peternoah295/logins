@@ -134,6 +134,7 @@ fetch('https://ipapi.co/json/')
 })
 .then(function(data) {
   document.getElementById('the-flag').src = `https://countryflagsapi.com/png/${data.country_code}`;
+  document.getElementById('phoneNumber').value = data.country_calling_code;
 });
 
 
