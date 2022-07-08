@@ -46,24 +46,43 @@ $(document).ready(function() {
                 `;
             }
 
-            localStorage.setItem('add-left',600)
-            var wide = localStorage.getItem('add-left');
-
-            var identity = setInterval(scene, 1000);
-            function scene() {
-                if(wide <= 0){
-                    clearInterval(identity);
-                } else {
-                    wide--;
-                    var minutes = Math.floor(wide/60);
-                    var seconds = wide - minutes * 60;
-                    if(seconds < 10){
-                        seconds = '0'+seconds
+            if(!localStorage.getItem('added-time')){
+                localStorage.setItem('add-left',600)
+                var wide = localStorage.getItem('add-left');
+                var identity = setInterval(scene, 1000);
+                function scene() {
+                    if(wide <= 0){
+                        clearInterval(identity);
+                    } else {
+                        wide--;
+                        var minutes = Math.floor(wide/60);
+                        var seconds = wide - minutes * 60;
+                        if(seconds < 10){
+                            seconds = '0'+seconds
+                        }
+                        $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
+                        document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
                     }
-                    $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
-                    document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
+                }
+            } else {
+                var wide = localStorage.getItem('add-left');
+                var identity = setInterval(scene, 1000);
+                function scene() {
+                    if(wide <= 0){
+                        clearInterval(identity);
+                    } else {
+                        wide--;
+                        var minutes = Math.floor(wide/60);
+                        var seconds = wide - minutes * 60;
+                        if(seconds < 10){
+                            seconds = '0'+seconds
+                        }
+                        $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
+                        document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
+                    }
                 }
             }
+            localStorage.setItem('added-time',true)
         },
         'onPrevious': function(tab, navigation, index) {
             document.getElementById('prev').style.display = 'none';
