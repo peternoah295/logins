@@ -20,6 +20,9 @@ const email1 = document.getElementById('yourEmail1');
 const email2 = document.getElementById('yourEmail2');
 const email5 = document.getElementById('yourEmail5');
 
+const displayNameField = document.getElementById('new-name');
+const editButton = document.getElementById('update-profile');
+
 const auth = firebase.auth();
 
 auth.onAuthStateChanged(user => {
