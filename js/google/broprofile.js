@@ -210,7 +210,7 @@ storageRef.put(file).on('state_changed', (snapshot) => {
       })
       .then(() => {
           alert('Profile Updated Successfully !');
-          document.getElementById('logo').setAttribute("src", user.photoURL);
+          document.getElementById('avatar').setAttribute("src", user.photoURL);
       })
       .catch(error => {
           console.error(error);
