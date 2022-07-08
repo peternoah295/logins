@@ -5,7 +5,8 @@ $(document).ready(function() {
     var $validator = $("#wizardForm").validate({
         rules: {
             exampleInputName: {
-                required: true
+                required: true,
+                number: true
             }
         }
     });
@@ -24,6 +25,12 @@ $(document).ready(function() {
                 $validator.focusInvalid();
                 return false;
             }
+            document.getElementById('prev').style.display = 'block';
+            document.getElementById('next').style.display = 'none';
+        },
+        'onPrevious': function(tab, navigation, index) {
+            document.getElementById('prev').style.display = 'none';
+            document.getElementById('next').style.display = 'block';
         },
         'onTabClick': function(tab, navigation, index) {
             var $valid = $("#wizardForm").valid();

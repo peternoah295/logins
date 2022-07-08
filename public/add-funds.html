@@ -287,11 +287,13 @@
                     <form id="wizardForm">
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="amount">
-                                <input type="text" 
+                                <label>Min: $1, Max: $999</label>
+                                <input type="number" 
                                     class="form-control" 
                                     name="exampleInputName" 
-                                    id="exampleInputName" 
-                                    placeholder="Enter Amount">
+                                    min="0"
+                                    max="999"
+                                    placeholder="Enter Deposit Amount">
                             </div>
                             <div class="tab-pane fade" id="deposit">
                                 <div class="modal-header" id="discountz">
@@ -325,13 +327,13 @@
                                 </div>  
 
                             </div>
-                            <ul class="pagination wizard">
-                                <li class="previous">
+                            <ul class="wizard">
+                                <li class="previous" id="prev" style="display: none">
                                     <a href="#" class="btn btn-outline-primary">
                                         Previous
                                     </a>
                                 </li>
-                                <li class="next ms-auto">
+                                <li class="next" id="next">
                                     <a href="#" class="btn btn-outline-primary">
                                         Next
                                     </a>
