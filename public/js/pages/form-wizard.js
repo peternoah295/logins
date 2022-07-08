@@ -60,16 +60,12 @@ $(document).ready(function() {
                     if(seconds < 10){
                         seconds = '0'+seconds
                     }
-                    $('#rootwizard').find('.bg-info').css({width:(wide/6)+'%'});
+                    $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
                     document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
                 }
             }
         },
         'onPrevious': function(tab, navigation, index) {
-            document.getElementById('prev').style.display = 'none';
-            document.getElementById('next').style.display = 'block';
-        },
-        'onFirst': function(tab, navigation, index) {
             document.getElementById('prev').style.display = 'none';
             document.getElementById('next').style.display = 'block';
         },
