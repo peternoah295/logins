@@ -28,10 +28,10 @@ $(document).ready(function() {
             document.getElementById('prev').style.display = 'block';
             document.getElementById('next').style.display = 'none';
 
-            var wide = 100;
+            var wide = 600;
             var identity = setInterval(scene, 1000);
             function scene() {
-                if(wide <= 50){
+                if(wide <= 0){
                     clearInterval(identity);
                 } else {
                     wide--;
@@ -40,7 +40,7 @@ $(document).ready(function() {
                     if(seconds < 10){
                         seconds = '0'+seconds
                     }
-                    $('#rootwizard').find('.bg-success').css({width:wide+'%'});
+                    $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
                     document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
                 }
             }
