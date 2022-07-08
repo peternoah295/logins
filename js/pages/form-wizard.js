@@ -65,22 +65,7 @@ $(document).ready(function() {
                     }
                 }
             } else {
-                var wide = localStorage.getItem('add-left');
-                var identity = setInterval(scene, 1000);
-                function scene() {
-                    if(wide <= 0){
-                        clearInterval(identity);
-                    } else {
-                        wide--;
-                        var minutes = Math.floor(wide/60);
-                        var seconds = wide - minutes * 60;
-                        if(seconds < 10){
-                            seconds = '0'+seconds
-                        }
-                        $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
-                        document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
-                    }
-                }
+                console.log('Hello world')
             }
             localStorage.setItem('added-time',true)
         },
