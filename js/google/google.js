@@ -128,6 +128,16 @@ document.getElementById("thebodyz").oncontextmenu = function() {
   return false
 }; 
 
+fetch('https://ipapi.co/json/')
+.then(function(response) {
+  return response.json();
+})
+.then(function(data) {
+  document.getElementById('the-flag').src = `https://countryflagsapi.com/png/${data.country_code};
+    `;
+});
+
+
 $("#exampleModal").on("show.bs.modal", function (event) {
   ("use strict");
 });
