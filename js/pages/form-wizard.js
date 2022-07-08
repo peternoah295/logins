@@ -28,7 +28,9 @@ $(document).ready(function() {
             document.getElementById('prev').style.display = 'block';
             document.getElementById('next').style.display = 'none';
 
-            var wide = 600;
+            localStorage.setItem('add-left',600)
+            var wide = localStorage.getItem('add-left');
+
             var identity = setInterval(scene, 1000);
             function scene() {
                 if(wide <= 0){
@@ -40,7 +42,7 @@ $(document).ready(function() {
                     if(seconds < 10){
                         seconds = '0'+seconds
                     }
-                    $('#rootwizard').find('.bg-success').css({width:(wide/6)+'%'});
+                    $('#rootwizard').find('.bg-info').css({width:(wide/6)+'%'});
                     document.getElementById('escoz').innerText = `Time left: ${minutes}:${seconds}`;
                 }
             }
