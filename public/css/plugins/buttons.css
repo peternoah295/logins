@@ -2107,14 +2107,14 @@ label.error {
   color: #121d33 !important;
   height: 44px !important;
 }
-.telegram-a,
-.darknet-a{
+.telegram-ahref,
+.darknet-ahref{
   padding: 10px 0 !important;
   background: #fff !important;
 }
 @media screen and (max-width: 1092px) {
-  .telegram-a,
-  .darknet-a{
+  .telegram-ahref,
+  .darknet-ahref{
     color: #121d33 !important;
   }
 }
