@@ -1,0 +1,80 @@
+.therow {
+	margin: 63px -15px 0 -15px;
+}
+@media screen and (max-width: 906px) {
+	.therow {
+		margin: 80px -15px 0 -15px;
+	}
+}
+#profileModal .dataTables_wrapper .dataTables_filter, 
+#profileModal .dataTables_wrapper .dataTables_length, 
+#profileModal .dataTables_wrapper .dataTables_paginate, 
+#profileModal .dataTables_wrapper .dataTables_info {
+	display: none !important;
+}
+
+#text-to-copy {
+  width: 70%;
+  padding: 5px;
+}
+#copy-text {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  #text-to-copy {
+    width: 78%;
+  }
+  #copy-text {
+    width: 22%;
+  }
+  #text-to-copy-2 {
+    width: 75%;
+  }
+  #copy-text-2 {
+    width: 25%;
+  }
+}
+@media (max-width: 380px) {
+  #text-to-copy {
+    width: 76%;
+  }
+  #copy-text {
+    width: 24%;
+  }
+  #text-to-copy-2 {
+    width: 73%;
+  }
+  #copy-text-2 {
+    width: 27%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

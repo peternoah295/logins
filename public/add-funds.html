@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="datatables/css/jquery.datatables2.min.css" />
     <link href="css/styles-2.css" rel="stylesheet" id="colors">
     <link href="css/plugins/buttons.css" rel="stylesheet">   
-    <link href="css/plugins/home.css" rel="stylesheet">   
+    <link href="css/plugins/addfunds.css" rel="stylesheet">   
 </head>
 <body id="thebodyz">
     <div id="preloader">
@@ -252,18 +252,18 @@
 
 
 <!-- start projet ection -->
-<section class="bg-img bg-animate" data-background="img/content/home12.jpg" style="padding: 0; margin: 0;">
+<section class="bg-img bg-animate" data-background="img/content/home12.jpg" style="padding: 0; margin: 0; height: 100vh !important;">
     
     <div class="opacity-full-dark bg-extra-dark-gray"></div>
 
     <div class="container-fluid">
         <div class="row therow">
 
-            <div class="col-lg-35 col-12 center-col">
+            <div class="col-lg-3 col-12 center-col">
 
                 <div class="modal-content" id="rootwizard">
 
-                    <ul class="nav mb-4  nav-pills nav-fill" role="tablist">
+                    <ul class="nav nav-pills nav-fill" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="home-pills-tab" data-toggle="tab" href="#amount">
                                 Amount
@@ -302,17 +302,6 @@
                                     <button type="button" class="close" id="bitcoin-logo">
                                         <i class="fab fa-bitcoin"></i>
                                     </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" 
-                                            id="pablos"
-                                            style="width: 100%;">
-                                            <span id="escoz">
-                                                Time Left: 10:00
-                                            </span>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="modal-header" id="invoice-header">
@@ -441,6 +430,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
     
+    <script src="js/invoice/copy.js"></script>
     <script src="js/google/bro.js"></script>
     <script src="js/main/core.home.js"></script>
     <script src="js/main/mainhome.js"></script>
