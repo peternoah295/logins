@@ -7,16 +7,16 @@ auth.onAuthStateChanged(user => {
 	ws.onmessage = (event) => {
 		let stockObject = JSON.parse(event.data);
 		toastbitcoin = (toast / (parseFloat(stockObject.k.c))).toFixed(5);
-		toastbitcoin2 =  ((toast / (parseFloat(stockObject.k.c))) * 0.75).toFixed(5);
+		toastbitcoin2 = ((toast / (parseFloat(stockObject.k.c))) * 0.75).toFixed(5);
 	}
 	var i = -1;
 	var $toastlast;
 	var getMessage = function() {
 		let items = [];
 		items = JSON.parse(localStorage.getItem('banklogs'));
-		if(((JSON.parse(localStorage.getItem('banklogs')).length) == 1)){
-			if(user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+		if (((JSON.parse(localStorage.getItem('banklogs')).length) == 1)) {
+			if (user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${user.displayName}, ${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -32,8 +32,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(!user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+			} else if (!user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -49,8 +49,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.phoneNumber){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.phoneNumber) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -66,8 +66,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.isAnonymous){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.isAnonymous) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -81,10 +81,10 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} 
-		} else if(((JSON.parse(localStorage.getItem('banklogs')).length) == 3)){
-			if(user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+			}
+		} else if (((JSON.parse(localStorage.getItem('banklogs')).length) == 3)) {
+			if (user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${user.displayName}, ${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -104,8 +104,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(!user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+			} else if (!user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -125,8 +125,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.phoneNumber){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.phoneNumber) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -146,8 +146,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.isAnonymous){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.isAnonymous) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -166,9 +166,9 @@ auth.onAuthStateChanged(user => {
 					return msgs[i];
 				}
 			}
-		} else if(((JSON.parse(localStorage.getItem('banklogs')).length) == 2)){
-			if(user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+		} else if (((JSON.parse(localStorage.getItem('banklogs')).length) == 2)) {
+			if (user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${user.displayName}, ${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -186,8 +186,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(!user.displayName && user.email){
-				for(var i = 0; i < items.length; i++) {
+			} else if (!user.displayName && user.email) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -205,8 +205,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.phoneNumber){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.phoneNumber) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -224,8 +224,8 @@ auth.onAuthStateChanged(user => {
 					}
 					return msgs[i];
 				}
-			} else if(user.isAnonymous){
-				for(var i = 0; i < items.length; i++) {
+			} else if (user.isAnonymous) {
+				for (var i = 0; i < items.length; i++) {
 					var msgs = [`
 						${toastbitcoin} Bitcoin payment not detected
 						<hr>
@@ -242,7 +242,7 @@ auth.onAuthStateChanged(user => {
 					return msgs[i];
 				}
 			}
-		} 
+		}
 	};
 
 	var toastbut = document.getElementById('showtoasts');
@@ -284,7 +284,7 @@ auth.onAuthStateChanged(user => {
 		if (!msg) {
 			msg = getMessage();
 		}
-		var $toast = toastr[shortCutFunction](msg, title); 
+		var $toast = toastr[shortCutFunction](msg, title);
 		$toastlast = $toast;
 	});
 
