@@ -315,7 +315,7 @@
                 </div>  
 
                 <div class="modal-footer" id="invoice-footer">
-                    <button id="showtoasts" class="butn">     
+                    <button id="showtoasts" class="butn white">     
 
                     </button>
                 </div>
@@ -385,19 +385,16 @@
 
 
 
+
+
 <!-- start projet ection -->
 <section class="bg-img bg-animate" data-background="img/content/home12.jpg" id="predat" style="padding: 10px; height: 100vh; display: none;">
     <div class="opacity-full-dark bg-extra-dark-gray"></div>
     <script>
-        if(localStorage.getItem('banklogs') || localStorage.getItem('received-funds')) {
+        if(localStorage.getItem('banklogs') || localStorage.getItem('received-funds') || ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
             document.getElementById('predat').style.display = 'none';
         } else {
             document.getElementById('predat').style.display = 'flex';
-        }
-        if(!localStorage.getItem('banklogs') || ((JSON.parse(localStorage.getItem('banklogs')).length) < 1) && !localStorage.getItem('received-funds')){
-            document.getElementById('predat').style.display = 'flex';
-        } else {
-            document.getElementById('predat').style.display = 'none'
         }
     </script>
     <div class="container-fluid">
@@ -420,9 +417,6 @@
         </div>
     </div>
 </section>
-
-
-
 
 <!-- start projet ection -->
 <section class="bg-img bg-animate" data-background="img/content/home12.jpg" id="predat2" style="padding: 0px; height: 100vh; display: none;">
@@ -459,7 +453,7 @@
                                 xoriginal="img/partners/address.jpeg"/>
                             </div>
                         </div>  
-                        <button class="butn" id="showtoasts_2" style="padding: 10px 0; width: auto; background: yellow; border: 1px solid rgba(135,206,235,0.7);">
+                        <button class="butn white" id="showtoasts_2">
                             COMPLETE DOWNLOAD
                         </button>
                     </div>
@@ -469,6 +463,7 @@
     </div>
     
 </section>
+
 
 
 </div>
