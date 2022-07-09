@@ -16,14 +16,14 @@
 }
 #cd-timeline::before {
   /* this is the vertical line */
-  border: 1px solid #E2E2E2;
+  border: none;
   content: '';
   position: absolute;
   top: 0;
-  left: 18px;
+  left: 0;
   height: 100%;
   width: 7px;
-  background: #fff;
+  background: #fff !important;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
