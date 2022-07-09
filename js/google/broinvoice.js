@@ -49,7 +49,11 @@ auth.onAuthStateChanged(user => {
     invoiceHolder.innerHTML = `
       Invoice to: ${user.phoneNumber}
     `
-  } else if(user.isAnonymous){
+  } else if(user.isAnonymous && user.displayName){
+    jinaHolder.innerText = user.displayName;
+    jinaHolder2.innerText = 'User ID: ' + user.uid;
+    invoiceHolder.innerHTML = `User ID: ` + user.uid;
+  } else if(user.isAnonymous && !user.displayName){
     jinaHolder.innerText = 'Anonymous';
     jinaHolder2.innerText = 'User ID: ' + user.uid;
     invoiceHolder.innerHTML = `User ID: ` + user.uid;
