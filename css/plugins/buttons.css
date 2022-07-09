@@ -2121,8 +2121,13 @@ label.error {
 
 .darknet-link{
   color: rgba(18, 29, 51, 1) !important;
-  display: none !important;
 }
 .tutorial-img{
   width: 70px !important;
+}
+
+@media screen and (min-width: 1092px) {
+  .darknet-link{
+    display: none !important;
+  }
 }
