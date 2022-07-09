@@ -517,6 +517,9 @@ blink.high {
   line-height: 24px;
   text-align: left;
 }
+.accordion-style h5{
+  margin-bottom: 0;
+}
 .cart-thumb {
   width: 60px;
   height: 60px;
