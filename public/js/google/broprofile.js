@@ -234,17 +234,16 @@ storageRef.put(file).on('state_changed', (snapshot) => {
 }, async () => {
   const url = await storageRef.getDownloadURL();
 
-      const user = auth.currentUser;
-      user.updateProfile({
-          photoURL: url
-      })
-      .then(() => {
-          alert('Profile Updated Successfully !');
-          document.getElementById('avatar').setAttribute("src", user.photoURL);
-      })
-      .catch(error => {
-          console.error(error);
-      })
+  const user = auth.currentUser;
+  user.updateProfile({
+      photoURL: url
+  })
+  .then(() => {
+      window.location.reload();
+  })
+  .catch(error => {
+      console.error(error);
+  })
 
 });
 });
