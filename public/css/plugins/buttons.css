@@ -2123,3 +2123,6 @@ label.error {
   color: rgba(18, 29, 51, 1) !important;
   display: none !important;
 }
+.tutorial-img{
+  width: 70px !important;
+}
