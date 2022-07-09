@@ -954,11 +954,11 @@ select {
 }
 @media (min-width: 1092px) {
   .modal-dialog {
-    max-width: 33vw;
+    max-width: 32vw;
     margin: 1.75rem auto;
   }
   #profileModal .modal-dialog {
-    min-width: 98vw;
+    min-width: 97vw;
     margin: 1.75rem auto;
   }
 }
