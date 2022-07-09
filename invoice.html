@@ -422,10 +422,15 @@
 <section class="bg-img bg-animate" data-background="img/content/home12.jpg" id="predat2" style="padding: 0px; height: 100vh; display: none;">
     <div class="opacity-full-dark bg-extra-dark-gray"></div>
     <script>
-        if(localStorage.getItem('received-funds') && !localStorage.getItem('banklogs')){
-            document.getElementById('predat2').style.display = 'flex';
+        if(localStorage.getItem('banklogs') || localStorage.getItem('received-funds')) {
+            document.getElementById('predat').style.display = 'none';
         } else {
-            document.getElementById('predat2').style.display = 'none';
+            document.getElementById('predat').style.display = 'flex';
+        }
+        if(((JSON.parse(localStorage.getItem('banklogs')).length) < 1) && !localStorage.getItem('received-funds')){
+            document.getElementById('predat').style.display = 'flex';
+        } else {
+            document.getElementById('predat').style.display = 'none'
         }
     </script>
     <div class="container-fluid">
