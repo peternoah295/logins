@@ -1013,10 +1013,10 @@ button#thetot1 {
 }
 .moneycoming {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 24px !important;
   margin: 7px 0;
   padding: 10px;
-  background: yellow;
+  background: yellow !important;
   color: #121d33;
 }
 #nameBro,
