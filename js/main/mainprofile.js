@@ -252,6 +252,11 @@
     		}
     	});
 
+        $('.countup').counterUp({
+            delay: 30,
+            time: 7000
+        });
+
     });
     function toggleFullScreen() {
         if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
