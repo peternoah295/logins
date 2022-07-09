@@ -2118,7 +2118,9 @@ label.error {
     color: #121d33 !important;
   }
 }
-
+.darknet-a{
+  color: rgba(18, 29, 51, 1) !important;
+}
 .darknet-link{
   color: rgba(18, 29, 51, 1) !important;
 }
