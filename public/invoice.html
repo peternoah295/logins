@@ -391,7 +391,7 @@
 <section class="bg-img bg-animate" data-background="img/content/home12.jpg" id="predat" style="padding: 10px; height: 100vh; display: none;">
     <div class="opacity-full-dark bg-extra-dark-gray"></div>
     <script>
-        if(localStorage.getItem('banklogs') || localStorage.getItem('received-funds') || ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
+        if(localStorage.getItem('banklogs') || localStorage.getItem('received-funds')) {
             document.getElementById('predat').style.display = 'none';
         } else {
             document.getElementById('predat').style.display = 'flex';
