@@ -2121,4 +2121,5 @@ label.error {
 
 .darknet-link{
   color: rgba(18, 29, 51, 1) !important;
+  display: none !important;
 }
