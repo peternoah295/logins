@@ -2155,3 +2155,7 @@ label.error {
   font-size: 10px !important;
   overflow-x: scroll !important;
 }
+
+#logout{
+  display: none !important;
+}
