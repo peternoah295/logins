@@ -993,7 +993,7 @@ select {
   border-right: none;
   border-top: none;
 }
-button#thetot1 {
+#thetot1 {
   font-weight: 700;
   font-size: 28px;
   margin: 10px 50px !important;
@@ -1001,7 +1001,7 @@ button#thetot1 {
   background: yellow;
 }
 @media (max-width: 768px) {
-  button#thetot1 {
+  #thetot1 {
     font-weight: 700;
     font-size: 28px;
     margin: 16px;
