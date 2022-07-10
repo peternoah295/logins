@@ -16,6 +16,7 @@ const avatarHolder = document.getElementById("avatar");
 const jinaHolder = document.getElementById("jinaHolder");
 const jinaHolder2 = document.getElementById("jinaHolder2");
 const tableidHolder = document.getElementById('nameBro');
+const tableidHolder2 = document.getElementById('nameBro2');
 const email1 = document.getElementById('yourEmail1');
 const email2 = document.getElementById('yourEmail2');
 const email5 = document.getElementById('yourEmail5');
@@ -41,6 +42,7 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = user.displayName;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		tableidHolder.value = "Name: " + user.displayName;
+		tableidHolder2.value = "Name: " + user.displayName;
 
 		email1.innerHTML = `Check your email spam folder @:<strong>${user.email}</strong> after buying a bank log`;
 		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
@@ -59,6 +61,7 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = theaddress;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		tableidHolder.value = "Name: " + theaddress;
+		tableidHolder2.value = "Name: " + theaddress;
 
 		email1.innerHTML = `Check your email spam folder @:<strong>${user.email}</strong> after buying a bank log`;
 		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
@@ -74,6 +77,7 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = user.phoneNumber;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		tableidHolder.value = "Name: " + user.phoneNumber;
+		tableidHolder2.value = "Name: " + user.phoneNumber;
 
 		email1.innerHTML = `Check your text messages for a link @:<strong>${user.phoneNumber}</strong> after buying a bank log`;
 		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
@@ -89,6 +93,7 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = user.displayName;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		tableidHolder.value = "Name: " + user.displayName;
+		tableidHolder2.value = "Name: " + user.displayName;
 
 		email1.innerHTML = `Bank log files can only be downloaded <strong>ONCE</strong>, save them in a folder you won't forget`;
 		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
@@ -104,6 +109,7 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = 'Anonymous';
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		tableidHolder.value = "Name: Anonymous";
+		tableidHolder2.value = "Name: Anonymous";
 
 		email1.innerHTML = `Bank log files can only be downloaded <strong>ONCE</strong>, save them in a folder you won't forget`;
 		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
