@@ -1020,6 +1020,7 @@ button#thetot1 {
   color: #121d33;
 }
 #nameBro,
+#nameBro1,
 #textBro {
   width: 100%;
   border: none;
@@ -2094,10 +2095,10 @@ label.error {
 
 
 
-#nameBro, #new-name, #new-photo, textarea{
+#nameBro, #nameBro1, #new-name, #new-photo, textarea{
   width: 100%;
 }
-#nameBro, #new-name, #new-photo{
+#nameBro, #nameBro1, #new-name, #new-photo{
   border: 1px solid lightblue; 
   padding: 5px; 
   background: white !important; 
