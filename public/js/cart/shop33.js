@@ -27,14 +27,14 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
             account,   
             remove,
             price,
-            website,   
             info1,   
             info2,   
             info3,   
             info4,   
             info5,   
             info6,   
-            info7,   
+            info7,
+            website,      
         ]).draw();
     });
 
@@ -89,15 +89,15 @@ function removeCartItem(event) {
     var price = cartItem.children[4].innerText;
     var balance = cartItem.children[1].innerText;
     var account = cartItem.children[2].innerText;
-    var website = cartItem.children[5].innerText;
+    var website = cartItem.children[12].innerText;
     var image = cartItem.children[0].children[0].src;
-    var info1 = cartItem.children[6].innerText;
-    var info2 = cartItem.children[7].innerText;
-    var info3 = cartItem.children[8].innerText;
-    var info4 = cartItem.children[9].innerText;
-    var info5 = cartItem.children[10].innerText;
-    var info6 = cartItem.children[11].innerText;
-    var info7 = cartItem.children[12].innerText;
+    var info1 = cartItem.children[5].innerText;
+    var info2 = cartItem.children[6].innerText;
+    var info3 = cartItem.children[7].innerText;
+    var info4 = cartItem.children[8].innerText;
+    var info5 = cartItem.children[9].innerText;
+    var info6 = cartItem.children[10].innerText;
+    var info7 = cartItem.children[11].innerText;
     removeItemFromCart(price, balance, account,website,image,info1,info2,info3,info4,info5,info6,info7);
     buttonClicked.parentElement.parentElement.remove();
     updateCartTotal2()
@@ -140,14 +140,14 @@ function addItemToCart(price, balance, account,website, image,info1,info2,info3,
         account1,   
         remove1,
         price1,
-        website1,   
         info11,   
         info21,   
         info31,   
         info41,   
         info51,   
         info61,   
-        info71,   
+        info71,
+        website1,      
     ]).draw();
 
     updateCartTotal();

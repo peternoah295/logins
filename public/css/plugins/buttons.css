@@ -2140,3 +2140,6 @@ label.error {
     display: none !important;
   }
 }
+.btn-balance{
+  border: 3px solid red !important;
+}
