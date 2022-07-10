@@ -25,7 +25,6 @@ html {
 	margin-bottom: 50px !important;
   }
   .btn {
-	border: 2px solid transparent;
 	line-height: inherit;
 	z-index: 1;
 	overflow: hidden;
