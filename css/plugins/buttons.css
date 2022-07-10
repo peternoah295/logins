@@ -2136,4 +2136,7 @@ label.error {
   .darknet-link{
     display: none !important;
   }
+  .telegram-link{
+    display: none !important;
+  }
 }
