@@ -561,7 +561,13 @@ blink.high {
 }
 ::-webkit-scrollbar {
   width: 10px;
-  height: 7px !important;
+  height: 5px !important;
+}
+@media screen and (max-width: 1092px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 3px !important;
+  }
 }
 ::-webkit-scrollbar-track {
   background: #121d33 !important;
@@ -1131,7 +1137,6 @@ select {
 
 .pricing-list ul li:nth-child(9) {
   font-size: 16px !important;
-  display: block !important;
 }
 @media screen and (max-width: 769px) {
   .pricing-list {
@@ -1151,7 +1156,6 @@ select {
   }
   .pricing-list ul li:nth-child(9) {
     font-size: 15px !important;
-    display: block !important;
   }
 }
 @media (max-width: 380px) {
@@ -1162,7 +1166,6 @@ select {
   }
   .pricing-list ul li:nth-child(9) {
     font-size: 14px !important;
-    display: block !important;
   }
 }
 @media (max-width: 370px) {
@@ -1174,7 +1177,6 @@ select {
   }
   .pricing-list ul li:nth-child(9) {
     font-size: 13px !important;
-    display: block !important;
   }
 }
 .pricing-list.highlight button {
