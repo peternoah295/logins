@@ -29,7 +29,7 @@ const auth = firebase.auth();
 auth.onAuthStateChanged(user => {
 	let goodies = [];
 	if (!user) {
-		// window.location.assign("index");
+		window.location.assign("index");
 	}
 	if (user.photoURL) {
 		avatarHolder.setAttribute("src", user.photoURL);
