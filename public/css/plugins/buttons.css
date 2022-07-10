@@ -1138,6 +1138,13 @@ select {
 .pricing-list ul li:nth-child(9) {
   font-size: 16px !important;
 }
+.pricing-list ul li:nth-child(1){
+  font-size: 12px !important;
+  overflow-x: scroll !important;
+}
+.website p{
+  overflow-x: scroll !important;
+}
 @media screen and (max-width: 769px) {
   .pricing-list {
     margin: 5px -4px;
