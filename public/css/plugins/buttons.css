@@ -999,7 +999,6 @@ button#thetot1 {
   margin: 10px 50px !important;
   padding: 10px;
   background: yellow;
-  /* color: #121d33; */
 }
 @media (max-width: 768px) {
   button#thetot1 {
@@ -1008,7 +1007,6 @@ button#thetot1 {
     margin: 16px;
     padding: 10px;
     background: yellow;
-    /* color: #121d33; */
   }
 }
 .moneycoming {
