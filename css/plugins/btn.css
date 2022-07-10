@@ -25,13 +25,12 @@ html {
 	margin-bottom: 50px !important;
   }
   .btn {
-	border: 2px solid transparent;
 	line-height: inherit;
 	z-index: 1;
 	overflow: hidden;
 	border-radius: 0;
 	background: yellow;
-	border: 1px solid rgba(255, 255, 255, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.81) !important;
 	letter-spacing: 0.5px;
 	font-family: "Montserrat", sans-serif;
 	display: inline-block;
