@@ -561,7 +561,7 @@ blink.high {
 }
 ::-webkit-scrollbar {
   width: 10px;
-  height: 5px !important;
+  height: 3px !important;
 }
 @media screen and (max-width: 1092px) {
   ::-webkit-scrollbar {
