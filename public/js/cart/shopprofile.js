@@ -74,7 +74,6 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
             <td id=${'name-on-table' + items.indexOf(items[i])} style="filter: blur(0px);"></td> 
             <td>${items[i].account}</td>
             <td class="btn-price">${(items[i].price).replace('Price: ','')}</td>
-            <td>${items[i].website}</td>
             <td>${items[i].info1}</td>
             <td>${items[i].info2}</td>
             <td>${items[i].info3}</td>
@@ -82,6 +81,7 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
             <td>${items[i].info5}</td>
             <td>${items[i].info6}</td>
             <td>${items[i].info7}</td>
+            <td>${items[i].website}</td>
         `;
 
         cartRow.innerHTML = cartRowContents;
