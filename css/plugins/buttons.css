@@ -2143,3 +2143,8 @@ label.error {
 .btn-balance{
   border: 3px solid red !important;
 }
+
+.site-link{
+  font-size: 10px !important;
+  overflow-x: scroll !important;
+}
