@@ -72,6 +72,9 @@ blink.high {
 .butn {
   border: 1px solid #16a086;
 }
+.scroll-down{
+  border: 1.4px solid #16a086;
+}
 .butn:after {
   background: #16a086;
 }
