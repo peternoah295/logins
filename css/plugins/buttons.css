@@ -606,6 +606,9 @@ blink.high {
   margin: 0 !important;
   padding: 0 !important;
 }
+.goldberg:hover{
+  color: #121d33 !important;
+}
 .gta {
   font-weight: 700;
   background: #fff;
@@ -2090,12 +2093,6 @@ label.error {
   .darknet-link{
     display: none !important;
   }
-  .telegram-link{
-    display: none !important;
-  }
-}
-.telegram-link{
-  display: none !important;
 }
 
 .site-link{
