@@ -2,7 +2,7 @@
 .navbar-nav > li {
   background-color: rgba(0, 115, 173, 0.4);
 }
-.logo-border {
+#avatar {
   border: 1px solid rgba(0, 115, 173, 0.7);
   border-radius: 50%;
 }

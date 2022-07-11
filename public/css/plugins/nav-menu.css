@@ -16,7 +16,7 @@ header {
   margin: 0 5px 0 -10px;
   padding: 0;
 }
-.navbar-header-custom {
+.navbar-header {
   padding: 0;
 }
 .navbar-default {
@@ -26,13 +26,6 @@ header {
 .navbar-default .container,
 .navbar-default .container-fluid {
   position: relative;
-}
-.menu_area {
-  position: relative;
-  z-index: 2;
-}
-.menu_area .navbar-brand {
-  transition: all 0.5s ease 0s;
 }
 .navbar-nav li {
   list-style: none;
@@ -352,10 +345,6 @@ header {
     width: 45px !important;
     transition-duration: 0.5s;
   }
-  .scrollHeader .navbar-header-custom {
-    padding: 0 !important;
-    transition-duration: 0.5s;
-  }
   .scrollHeader .attr-nav > ul > li > a {
     padding: 0 3px;
   }
@@ -367,10 +356,6 @@ header {
   }
   .header-style2 .navbar-default {
     box-shadow: none;
-  }
-  .header-style2 .navbar-header-custom {
-    border-right: none;
-    padding: 0;
   }
   .header-style2 .navbar-nav li a {
     color: #6f6f6f;
@@ -393,10 +378,6 @@ header {
   }
   .header-style2 .navbar > ul > li.current > a:after {
     border-color: transparent #3498db #3498db transparent;
-  }
-  .header-style2.scrollHeader .navbar-header-custom {
-    padding: 10px 0 10px 0;
-    border-right: none;
   }
   .header-style2.scrollHeader .navbar-nav > li > a {
     color: #121d33;
@@ -450,10 +431,7 @@ header {
   }
 }
 @media screen and (max-width: 1091px) {
-  .navbar-header-custom {
-    padding: 4px 0 8px;
-  }
-  .menu_area .navbar-brand {
+  .navbar-brand {
     margin: 6px 0 0 0;
   }
   .navbar-nav li > ul {

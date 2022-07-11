@@ -19,12 +19,11 @@ const auth = firebase.auth();
 
 auth.onAuthStateChanged(user => {
 	if (!user) {
-		window.location.assign("index");
+		// window.location.assign("index");
 	}
 	if (user.photoURL) {
 		avatarHolder.setAttribute("src", user.photoURL);
 		avatarHolder.style.display = 'block';
-		avatarHolder.classList.add('logo-border');
 	} else if (!user.photoURL) {
 		logoHolder.style.display = 'block';
 	}
