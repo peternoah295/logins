@@ -1706,8 +1706,8 @@ label.error {
 }
 
 .attr-nav > ul > li.dropdown ul.dropdown-menu {
-  left: -186px;
-  width: 285px;
+  left: -170px;
+  width: 270px;
 }
 .attr-nav > ul > li.dropdown ul.dropdown-menu li:last-child {
     border-bottom: none !important;
