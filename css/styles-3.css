@@ -3,7 +3,7 @@
   background-color: rgba(0, 115, 173, 0.4);
 }
 #avatar {
-  border: 1px solid rgba(0, 115, 173, 0.7);
+  border: 1.4px solid rgba(0, 115, 173, 0.7);
   border-radius: 50%;
 }
 #preloader:before {
@@ -51,7 +51,7 @@ blink {
 }
 blink.high {
   color: #0073ad;
-  border: 1px solid #0073ad;
+  border: 1.4px solid #0073ad;
 }
 .scroll-to-top {
   border: 2px solid #0073ad;
@@ -66,7 +66,7 @@ blink.high {
   color: #0073ad;
 }
 .butn {
-  border: 1px solid #0073ad;
+  border: 1.4px solid #0073ad;
 }
 .scroll-down{
   border: 1.4px solid #0073ad;
@@ -75,13 +75,13 @@ blink.high {
   background: #0073ad;
 }
 .butn.white:hover {
-  border: 1px solid #0073ad;
+  border: 1.4px solid #0073ad;
 }
 .butn.in-cart {
-  border: 1px solid #0073ad !important;
+  border: 1.4px solid #0073ad !important;
 }
 .butn.in-cart:hover {
-  border: 1px solid #0073ad !important;
+  border: 1.4px solid #0073ad !important;
 }
 .section-heading h4:after {
   background: #0073ad;
@@ -105,7 +105,7 @@ blink.high {
   background-color: #0073ad;
 }
 .filtering span {
-  border: 1px solid #0073ad;
+  border: 1.4px solid #0073ad;
 }
 .filtering span > i {
   color: #0073ad;
@@ -116,10 +116,10 @@ blink.high {
 }
 .modal-body div p,
 .account {
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 #profileModal .modal-content {
-  border: 1px solid rgba(0, 115, 173, 0.7) !important;
+  border: 1.4px solid rgba(0, 115, 173, 0.7) !important;
   box-shadow: 0px 5px 10px 0px rgba(0, 115, 173, 0.3);
 }
 #profileModal .modal-header img,
@@ -128,30 +128,25 @@ blink.high {
   border: 1.4px solid rgba(0, 115, 173, 0.7);
 }
 #exampleModal .modal-content {
-  border: 1px solid rgba(0, 115, 173, 0.7) !important;
+  border: 1.4px solid rgba(0, 115, 173, 0.7) !important;
   box-shadow: 0px 5px 10px 0px rgba(0, 115, 173, 0.3);
 }
 .modal-body {
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 #chart3,
 #chart4,
 #chart1,
 #chart2 {
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 .filtering span:nth-child(1) {
   background: rgba(0, 115, 173, 0.81);
-  border: 1px solid rgba(255, 255, 255, 0.81);
+  border: 1.4px solid rgba(255, 255, 255, 0.81);
   color: white;
 }
 .filtering span:nth-child(1) > i {
   color: white;
-}
-.service-box {
-  background: rgba(0, 115, 173, 0.1);
-  border: 1px solid rgba(0, 115, 173, 0.3);
-  box-shadow: 0 10px 20px 0 rgba(0, 115, 173, 0.2);
 }
 
 .accordion-style .btn-link {
@@ -162,7 +157,7 @@ blink.high {
 }
 
 #canvas {
-  border: 1px solid #0073ad;
+  border: 1.4px solid #0073ad;
 }
 #canvas:hover {
   box-shadow: 0 25px 30px 0 #0073ad;
@@ -205,7 +200,7 @@ blink.high {
 }
 #invoice-table,
 #modalsend {
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 .ach-method h4 {
   box-shadow: 0 1px 2px 0 #0073ad;
@@ -235,13 +230,13 @@ blink.high {
 
 .fa-toggle-on {
   color: #0073ad;
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 .fa-toggle-off {
   color: #0073ad;
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
 #style-switcher {
   box-shadow: 0px 7px 21px 0 rgba(0, 115, 173, 0.3);
-  border: 1px solid rgba(0, 115, 173, 0.3);
+  border: 1.4px solid rgba(0, 115, 173, 0.3);
 }
