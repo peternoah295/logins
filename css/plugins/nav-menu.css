@@ -184,10 +184,6 @@ header {
   margin-left: 200px;
   min-width: 200px;
 }
-.navbar li > ul ul ul {
-  margin-left: 175px;
-  min-width: 130px;
-}
 .attr-nav {
   float: right;
 }
@@ -349,68 +345,13 @@ header {
     left: 0;
     width: 100%;
   }
-  .header-style2 .navbar-default {
-    box-shadow: none;
-  }
-  .header-style2 .navbar-nav li a {
-    color: #6f6f6f;
-  }
-  .header-style2 .navbar-nav > li > a {
-    font-size: 13px;
-    color: #fff;
-  }
-  .header-style2 .navbar-nav li > ul {
-    background: #fff;
-  }
-  .header-style2 .navbar ul ul li.active > a {
-    color: #121d33;
-  }
-  .header-style2 .navbar-nav li.current > a {
-    color: #3498db;
-  }
-  .header-style2 .navbar-nav li.active > a {
-    color: #3498db;
-  }
-  .header-style2 .navbar > ul > li.current > a:after {
-    border-color: transparent #3498db #3498db transparent;
-  }
-  .header-style2.scrollHeader .navbar-nav > li > a {
-    color: #121d33;
-  }
-  .header-style2.scrollHeader .navbar-nav li.current > a {
-    color: #3498db;
-  }
-  .header-style2.scrollHeader .navbar-nav li.current > a:hover {
-    color: #3498db;
-  }
-  .header-style2.scrollHeader .navbar > ul > li.current > a:after {
-    border-color: transparent #3498db #3498db transparent;
-  }
-  .header-style2.scrollHeader .navbar-nav li.active > a {
-    color: #3498db;
-  }
-  .header-style2.scrollHeader .navbar-nav li.active > a:hover {
-    color: #3498db;
-  }
   .header-style2 .attr-nav {
     border-left: none;
     margin: 0 -20px 0 -20px !important;
   }
-  .header-style2.scrollHeader .attr-nav {
-    border-left: 1.4px solid rgba(0, 0, 0, 0.1);
-  }
   .header-style2.scrollHeader .attr-nav > ul > li > a {
     color: #232323;
     padding: 0;
-  }
-  .header-style2 .attr-nav ul.cart-list > li {
-    border-bottom: 1.4px solid #dcdcdc;
-  }
-  .header-style2 .attr-nav ul.cart-list > li.total {
-    border: none;
-  }
-  .header-style2 .navbar ul.cart-list > li img {
-    border: 1.4px solid #c5c5c5;
   }
   .header-style2 .attr-nav > ul {
     padding: 0 15px;
@@ -443,25 +384,13 @@ header {
   .navbar-nav > li > a:hover {
     opacity: 1;
   }
-  .navbar ul ul li.active > a {
-    color: #000;
-  }
   .navbar-nav {
     background: #fff;
     position: absolute;
     top: 71px;
-    transition-duration: 0;
-    -ms-transition-duration: 0;
-    -moz-transition-duration: 0;
-    -webkit-transition-duration: 0;
-    -o-transition-duration: 0;
     width: 81%;
     display: block;
     transition: none;
-    -ms-transition: none;
-    -moz-transition: none;
-    -webkit-transition: none;
-    -o-transition: none;
     margin-left: 250px !important;
     right: 0px !important;
     box-shadow: 0px 5px 10px 0px rgba(135, 206, 235, 0.7);
@@ -484,9 +413,6 @@ header {
     position: relative;
     padding: 0;
     margin: 0;
-  }
-  .navbar-nav ul li:hover {
-    background: #f5f5f5;
   }
   .navbar-nav ul ul li {
     height: auto;

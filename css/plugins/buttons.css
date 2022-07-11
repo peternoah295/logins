@@ -1714,6 +1714,11 @@ label.error {
     margin-right: 50px !important;
   }
 }
+@media (max-width: 420px) {
+  .attr-nav {
+    margin-right: 40px !important;
+  }
+}
 @media (max-width: 400px) {
   .attr-nav {
     margin-right: 21px !important;
