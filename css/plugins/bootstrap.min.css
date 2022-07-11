@@ -3878,7 +3878,6 @@ flex-wrap: wrap;
 align-items: center;
 -ms-flex-pack: justify;
 justify-content: space-between;
-padding: 7px 0; 
 }
 .navbar > .container,
 .navbar > .container-fluid {
