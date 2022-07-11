@@ -559,26 +559,6 @@ blink.high {
     margin-top: 30px;
   }
 }
-::-webkit-scrollbar {
-  width: 10px;
-  height: 3px !important;
-}
-@media screen and (max-width: 1092px) {
-  ::-webkit-scrollbar {
-    width: 7px;
-    height: 3px !important;
-  }
-}
-::-webkit-scrollbar-track {
-  background: #121d33 !important;
-  border-radius: 10px !important;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px !important;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #fff !important;
-}
 .fa-toggle-on {
   font-size: 30px;
   background: rgba(18, 29, 51, 0.92) !important;
@@ -1144,6 +1124,26 @@ select {
 }
 .website p{
   overflow-x: scroll !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 3px !important;
+}
+@media screen and (max-width: 1092px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 3px !important;
+  }
+}
+::-webkit-scrollbar-track {
+  background: #121d33 !important;
+  border-radius: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff !important;
 }
 @media screen and (max-width: 769px) {
   .pricing-list {
