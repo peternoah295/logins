@@ -1730,6 +1730,12 @@ label.error {
     width: 255%;
   }
 }
+@media (max-width: 380px) {
+  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+    left: -130%;
+    width: 255%;
+  }
+}
 @media (max-width: 374px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
     left: -140%;
