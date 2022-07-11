@@ -4,7 +4,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: url(../img/content/banner.jpg) no-repeat center center/cover;
+  background: url(../../img/content/bg.jpg) no-repeat center center/cover;
   opacity: 0.75;
   z-index: 999999;
   transition: 0.3s ease opacity;
