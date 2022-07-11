@@ -224,6 +224,11 @@
 .butn:focus {
   color: #fff !important;
 }
+.butn.white:hover,
+.butn.white:active,
+.butn.white:focus {
+  color: #fff !important;
+}
 
 .rev_slider_wrapper .butn span {
   font-size: 14px !important;
@@ -546,8 +551,6 @@ blink.high {
   padding: 0 !important;
 }
 .gta {
-  background: white;
-  color: #121d33;
   font-weight: 700;
   width: 60%;
   padding: 8px;
@@ -556,16 +559,11 @@ blink.high {
 }
 .gta-boa {
   font-size: 16px;
-  background: white;
-  color: #121d33;
   font-weight: 700;
   width: 60%;
   padding: 8px 0 !important;
   align-items: center;
   text-transform: uppercase;
-}
-.gta:hover {
-  color: #fff !important;
 }
 
 .borderp {
