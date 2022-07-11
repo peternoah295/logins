@@ -1066,7 +1066,7 @@ select {
   }
 }
 ::-webkit-scrollbar-track {
-  background: #121d33;
+  background: transparent;
   border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb {
