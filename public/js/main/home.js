@@ -35,229 +35,39 @@
 
     $(document).ready(function() {
 
-    	new Chart(document.getElementById("chart1"), {
-    		"type": "line",
-    		"data": {
-    			"labels": [
-                    "Bank of America", 
-                    "Barclays",
-                    "Chase", 
-                    "Chime", 
-                    "Citi", 
-                    "Huntington",
-                    "Navy Federal",
-                    "P.N.C",
-                    "Truist",
-                    "Woodforest"
-                ],
-    			"datasets": [{
-    				"label": "Logs Available",
-    				"data": [
-                        11, 
-                        10,
-                        16, 
-                        20,
-                        17,
-                        17,
-                        11,
-                        13, 
-                        12, 
-                        10
-                    ],
-    				"borderColor": "rgb(135,205,235, 1)",
-                    "backgroundColor":  "rgba(135,205,235,0.3)", 
-    			}]
-    		},
-    		"options": {}
-    	});
 
-    	new Chart(document.getElementById("chart2"), {
-    		"type": "bar",
-    		"data": {
-    			"labels": [
-                    "Bank of America", 
-                    "Barclays",
-                    "Chase", 
-                    "Chime", 
-                    "Citi", 
-                    "Huntington",
-                    "Navy Federal",
-                    "P.N.C",
-                    "Truist",
-                    "Woodforest"
-                ],
-    			"datasets": [{
-    				"label": "Logs Available",
-    				"data": [
-                        11, 
-                        10,
-                        16, 
-                        20,
-                        17,
-                        17,
-                        11,
-                        13, 
-                        12, 
-                        10
-                    ],
-    				"fill": false,
-    				"backgroundColor": [
-                        "rgba(3, 169, 245, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)",
-                        "rgba(0, 115, 173, 0.85)",
-                        "rgba(71, 88, 143, 0.85)", 
-                        "rgba(250, 183, 2, 0.85)", 
-                        "rgba(208, 173, 85, 0.85)", 
-                        "rgba(73, 192, 208, 0.85)",
-                        "rgba(22, 160, 134, 0.85)", 
-                        "rgba(134, 188, 66, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)"
-                    ],
-    				"borderColor": [
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)",
-                        "rgba(255, 255, 255, 0.7)"
-                    ],
-    				"borderWidth": 1
-    			}]
-    		},
-    		"options": {
-    			"scales": {
-    				"yAxes": [{
-    					"ticks": {
-    						"beginAtZero": true
-    					}
-    				}]
-    			}
-    		}
-    	});
-
-    	new Chart(document.getElementById("chart3"), {
-    		"type": "pie",
-    		"data": {
-                "labels": [
-                    "Bank of America", 
-                    "Barclays",
-                    "Chase", 
-                    "Chime", 
-                    "Citi", 
-                    "Huntington",
-                    "Navy Federal",
-                    "P.N.C",
-                    "Truist",
-                    "Woodforest"
-                ],
-    			"datasets": [{
-    				"label": "Logs Available",
-                    "data": [
-                        11, 
-                        10,
-                        16, 
-                        20,
-                        17,
-                        17,
-                        11,
-                        13, 
-                        12, 
-                        10
-                    ],
-                    "backgroundColor": [
-                        "rgba(3, 169, 245, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)",
-                        "rgba(0, 115, 173, 0.85)",
-                        "rgba(71, 88, 143, 0.85)", 
-                        "rgba(250, 183, 2, 0.85)", 
-                        "rgba(208, 173, 85, 0.85)", 
-                        "rgba(73, 192, 208, 0.85)",
-                        "rgba(22, 160, 134, 0.85)", 
-                        "rgba(134, 188, 66, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)"
-                    ],
-                    "borderColor": [
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)"
-                    ],
-    			}]
-    		}
-    	});
-
-        new Chart(document.getElementById("chart4"), {
-    		"type": "doughnut",
-    		"data": {
-                "labels": [
-                    "Bank of America", 
-                    "Barclays",
-                    "Chase", 
-                    "Chime", 
-                    "Citi", 
-                    "Huntington",
-                    "Navy Federal",
-                    "P.N.C",
-                    "Truist",
-                    "Woodforest"
-                ],
-    			"datasets": [{
-    				"label": "Logs Available",
-                    "data": [
-                        11, 
-                        10,
-                        16, 
-                        20,
-                        17,
-                        17,
-                        11,
-                        13, 
-                        12, 
-                        10
-                    ],
-                    "backgroundColor": [
-                        "rgba(3, 169, 245, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)",
-                        "rgba(0, 115, 173, 0.85)",
-                        "rgba(71, 88, 143, 0.85)", 
-                        "rgba(250, 183, 2, 0.85)", 
-                        "rgba(208, 173, 85, 0.85)", 
-                        "rgba(73, 192, 208, 0.85)",
-                        "rgba(22, 160, 134, 0.85)", 
-                        "rgba(134, 188, 66, 0.85)", 
-                        "rgba(135, 206, 235, 0.85)"
-                    ],
-                    "borderColor": [
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)",
-                        "rgba(255, 255, 255 , 0.49)"
-                    ],
-    			}]
-    		}
-    	});
-
-        $('.countup').counterUp({
-            delay: 30,
-            time: 7000
+        $('#services-carousel').owlCarousel({
+            loop: true,
+            responsiveClass: true,
+            dots: true,
+            nav: true,
+            smartSpeed: 500,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsive: {
+                0: {
+                    items: 2,
+                    margin: 10
+                },
+                768: {
+                    items: 3,
+                    margin: 10
+                },
+                992: {
+                    items: 3,
+                    margin: 10
+                },
+                1200: {
+                    items: 5,
+                    margin: 10
+                }
+            }
         });
 
     });
+
     function toggleFullScreen() {
         if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
             if (document.documentElement.requestFullscreen) {
@@ -301,9 +111,3 @@ function changeImage() {
         image.classList.add('fa-toggle-on');
     }
 }
-
-$(document).ready(function() {
-    "use strict";
-    $('#example').dataTable();    
-    $('#example2').dataTable();    
-});
