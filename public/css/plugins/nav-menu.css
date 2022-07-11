@@ -47,7 +47,7 @@ header {
   float: left;
   padding: 0;
   margin: 0 1px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1.4px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
   box-shadow: 0 3px 3px 0 #000;
 }
@@ -405,20 +405,20 @@ header {
     margin: 0 -20px 0 -20px !important;
   }
   .header-style2.scrollHeader .attr-nav {
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1.4px solid rgba(0, 0, 0, 0.1);
   }
   .header-style2.scrollHeader .attr-nav > ul > li > a {
     color: #232323;
     padding: 0;
   }
   .header-style2 .attr-nav ul.cart-list > li {
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1.4px solid #dcdcdc;
   }
   .header-style2 .attr-nav ul.cart-list > li.total {
     border: none;
   }
   .header-style2 .navbar ul.cart-list > li img {
-    border: 1px solid #c5c5c5;
+    border: 1.4px solid #c5c5c5;
   }
   .header-style2 .attr-nav > ul {
     padding: 0 15px;
@@ -488,7 +488,7 @@ header {
   }
   .navbar-nav li {
     width: 100%;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1.4px solid rgba(255, 255, 255, 0.5);
     position: relative;
     padding: 0;
     margin: 0;
@@ -640,7 +640,7 @@ header {
   }
   .header-style2 .navbar-default {
     box-shadow: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1.4px solid rgba(255, 255, 255, 0.2);
   }
   .header-style2 .navbar-toggler {
     background: #fff;
@@ -666,13 +666,13 @@ header {
     background: #fff;
   }
   .header-style2 .attr-nav ul.cart-list > li {
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1.4px solid #dcdcdc;
   }
   .header-style2 .attr-nav ul.cart-list > li.total {
     border: none;
   }
   .header-style2 .navbar ul.cart-list > li img {
-    border: 1px solid #c5c5c5;
+    border: 1.4px solid #c5c5c5;
   }
   .header-style2 .attr-nav > ul > li > a {
     color: #fff;
@@ -680,7 +680,7 @@ header {
 }
 /*# sourceMappingURL=nav-menu.css.map */
 .cart-list li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7) !important;
+  border-bottom: 1.4px solid rgba(255, 255, 255, 0.7) !important;
 }
 @media screen and (max-width: 769px) and (min-width: 568px) {
   .navbar-nav {

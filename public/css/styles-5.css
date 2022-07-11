@@ -3,7 +3,7 @@
   background-color: rgba(250, 183, 2, 0.4);
 }
 #avatar {
-  border: 1px solid rgba(250, 183, 2, 0.7);
+  border: 1.4px solid rgba(250, 183, 2, 0.7);
   border-radius: 50%;
 }
 #preloader:before {
@@ -51,7 +51,7 @@ blink {
 }
 blink.high {
   color: #fab702;
-  border: 1px solid #fab702;
+  border: 1.4px solid #fab702;
 }
 .scroll-to-top {
   border: 2px solid #fab702;
@@ -66,7 +66,7 @@ blink.high {
   color: #fab702;
 }
 .butn {
-  border: 1px solid #fab702;
+  border: 1.4px solid #fab702;
 }
 .scroll-down{
   border: 1.4px solid #fab702;
@@ -75,13 +75,13 @@ blink.high {
   background: #fab702;
 }
 .butn.white:hover {
-  border: 1px solid #fab702;
+  border: 1.4px solid #fab702;
 }
 .butn.in-cart {
-  border: 1px solid #fab702 !important;
+  border: 1.4px solid #fab702 !important;
 }
 .butn.in-cart:hover {
-  border: 1px solid #fab702 !important;
+  border: 1.4px solid #fab702 !important;
 }
 .section-heading h4:after {
   background: #fab702;
@@ -105,7 +105,7 @@ blink.high {
   background-color: #fab702;
 }
 .filtering span {
-  border: 1px solid #fab702;
+  border: 1.4px solid #fab702;
 }
 .filtering span > i {
   color: #fab702;
@@ -116,10 +116,10 @@ blink.high {
 }
 .modal-body div p,
 .account {
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 #profileModal .modal-content {
-  border: 1px solid rgba(250, 183, 2, 0.7) !important;
+  border: 1.4px solid rgba(250, 183, 2, 0.7) !important;
   box-shadow: 0px 5px 10px 0px rgba(250, 183, 2, 0.3);
 }
 #profileModal .modal-header img,
@@ -128,30 +128,25 @@ blink.high {
   border: 1.4px solid rgba(250, 183, 2, 0.7);
 }
 #exampleModal .modal-content {
-  border: 1px solid rgba(250, 183, 2, 0.7) !important;
+  border: 1.4px solid rgba(250, 183, 2, 0.7) !important;
   box-shadow: 0px 5px 10px 0px rgba(250, 183, 2, 0.3);
 }
 .modal-body {
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 #chart3,
 #chart4,
 #chart1,
 #chart2 {
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 .filtering span:nth-child(1) {
   background: rgba(250, 183, 2, 0.81);
-  border: 1px solid rgba(255, 255, 255, 0.81);
+  border: 1.4px solid rgba(255, 255, 255, 0.81);
   color: white;
 }
 .filtering span:nth-child(1) > i {
   color: white;
-}
-.service-box {
-  background: rgba(250, 183, 2, 0.1);
-  border: 1px solid rgba(250, 183, 2, 0.3);
-  box-shadow: 0 10px 20px 0 rgba(250, 183, 2, 0.2);
 }
 .accordion-style .btn-link {
   background: #fab702 !important;
@@ -161,7 +156,7 @@ blink.high {
 }
 
 #canvas {
-  border: 1px solid #fab702;
+  border: 1.4px solid #fab702;
 }
 #canvas:hover {
   box-shadow: 0 25px 30px 0 #fab702;
@@ -205,7 +200,7 @@ blink.high {
 }
 #invoice-table,
 #modalsend {
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 .ach-method h4 {
   box-shadow: 0 1px 2px 0 #fab702;
@@ -235,13 +230,13 @@ blink.high {
 
 .fa-toggle-on {
   color: #fab702;
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 .fa-toggle-off {
   color: #fab702;
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }
 #style-switcher {
   box-shadow: 0px 7px 21px 0 rgba(250, 183, 2, 0.3);
-  border: 1px solid rgba(250, 183, 2, 0.3);
+  border: 1.4px solid rgba(250, 183, 2, 0.3);
 }

@@ -36,7 +36,7 @@
 
 /* Thumbs */
 .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
-  border: 1px solid #cecece;
+  border: 1.4px solid #cecece;
   margin-left: 5px;
   margin-bottom: 10px;
 }
@@ -56,7 +56,7 @@
 
 /* Preview */
 .xzoom-preview {
-  border: 1px solid #888;
+  border: 1.4px solid #888;
   background: #2f4f4f;
   box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
   z-index: 1;
@@ -64,7 +64,7 @@
 
 /* Lens */
 .xzoom-lens {
-  border: 1px solid #555;
+  border: 1.4px solid #555;
   box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
   cursor: crosshair;
 }
@@ -83,7 +83,7 @@
 /* Additional class that applied to thumb when it is active */
 .xactive {
   box-shadow: 0px 0px 3px 0px rgba(74,169,210,1); 
-  border: 1px solid #4aaad2;
+  border: 1.4px solid #4aaad2;
 }
 
 /* Caption */

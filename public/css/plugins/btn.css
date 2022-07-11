@@ -73,7 +73,7 @@ html {
 	background-color: #000 !important;
 	color: aqua !important;
 	box-shadow: none !important;
-	border: 1px solid rgba(255, 255, 255, 0.7);
+	border: 1.4px solid rgba(255, 255, 255, 0.7);
   }
   .banner-words-wrapper {
 	display: inline-block;
@@ -173,13 +173,13 @@ html {
   #signPhone,
   #signInWithPhone {
 	background: aqua !important;
-	border: 1px solid rgba(135, 206, 235, 0.7) !important;
+	border: 1.4px solid rgba(135, 206, 235, 0.7) !important;
 	font-size: 20px !important;
 	color: #121d33 !important;
   }
   #getCode {
 	background: aqua !important;
-	border: 1px solid rgba(135, 206, 235, 0.7) !important;
+	border: 1.4px solid rgba(135, 206, 235, 0.7) !important;
 	font-size: 20px !important;
 	color: #121d33 !important;
   }
@@ -210,7 +210,7 @@ html {
   #loginModal .modal-content {
 	background: rgba(18, 29, 51, 0.92);
 	border-radius: 0 !important;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
   }
   #loginModal .modal-header {
@@ -218,7 +218,7 @@ html {
   }
   #loginModal .close img {
 	width: 30px;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	opacity: 0.7 !important;
 	border-radius: 50%;
   }
@@ -272,7 +272,7 @@ html {
   #phoneModal .modal-content {
 	background: rgba(18, 29, 51, 0.92);
 	border-radius: 0 !important;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
   }
   #phoneModal .modal-header {
@@ -280,7 +280,7 @@ html {
   }
   #phoneModal .close img {
 	width: 30px;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	opacity: 0.7 !important;
 	border-radius: 50%;
   }
@@ -328,7 +328,7 @@ html {
   }
   #phoneModal #phoneNumber {
 	font-size: 20px !important;
-	border: 1px solid lightgray !important;
+	border: 1.4px solid lightgray !important;
 	padding: 24px !important;
 	width: 90% !important;
   }
@@ -340,7 +340,7 @@ html {
   #codeModal .modal-content {
 	background: rgba(18, 29, 51, 0.92);
 	border-radius: 0 !important;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	box-shadow: 0 7px 14px 0 rgba(135, 206, 235, 0.3);
   }
   #codeModal .modal-header {
@@ -348,7 +348,7 @@ html {
   }
   #codeModal .close img {
 	width: 30px;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	opacity: 0.7 !important;
 	border-radius: 50%;
   }
@@ -414,7 +414,7 @@ html {
   }
   #the-flag {
 	width: 20% !important;
-	border: 1px solid rgba(135, 206, 235, 0.7);
+	border: 1.4px solid rgba(135, 206, 235, 0.7);
 	height: 61px !important;
 	margin: auto 7px !important;
   }
