@@ -600,6 +600,7 @@ blink.high {
   font-size: 17px;
   font-weight: 700;
   text-align: center !important;
+  text-transform: uppercase !important;
   float: right;
   width: 100% !important;
   margin: 0 !important;
