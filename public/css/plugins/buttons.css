@@ -455,23 +455,15 @@ blink.high {
 .accordion-style h5{
   margin-bottom: 0;
 }
-.cart-thumb {
-  width: 60px;
-  height: 60px;
+#canvas {
   border-radius: 50%;
   margin: 0 0 0 20px;
   padding: 0;
   background: #121d33;
   border-radius: 50%;
 }
-@media screen and (max-width: 467px) {
-  .cart-thumb {
-    width: auto;
-    height: auto;
-  }
-}
 @media screen and (min-width: 500px) and (max-width: 769px) {
-  .cart-thumb {
+  #canvas {
     margin-right: 80px;
   }
   span.badge {
@@ -1677,6 +1669,22 @@ label.error {
     width: 255%;
   }
 }
+@media (max-width: 767px) {
+  .attr-nav {
+    margin-right: 50px !important;
+  }
+}
+@media (max-width: 400px) {
+  .attr-nav {
+    margin-right: 27px !important;
+  }
+}
+@media (max-width: 370px) {
+  .attr-nav {
+    margin-right: 12px !important;
+  }
+}
+
 
 .navbar-brand img {
   height: 47px !important;

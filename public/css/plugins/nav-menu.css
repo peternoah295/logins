@@ -1132,25 +1132,12 @@ th {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 387px) {
-  .xs-margin-50px-right {
-    margin-right: 39px !important;
-  }
-}
 @media screen and (max-width: 377px) {
-  .xs-margin-50px-right {
-    margin-right: 34px !important;
-  }
   #jinaHolder {
     font-size: 16px !important;
   }
   #jinaHolder2 {
     font-size: 6px !important;
-  }
-}
-@media screen and (max-width: 370px) {
-  .xs-margin-50px-right {
-    margin-right: 22px !important;
   }
 }
 
