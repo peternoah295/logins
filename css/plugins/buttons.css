@@ -660,13 +660,6 @@ select {
   border-radius: 7px;
 }
 
-#showtoasts,
-#showtoasts_2 {
-  font-size: 18px;
-  width: 99%;
-  padding-left: 7px !important;
-  padding-right: 7px !important;
-}
 
 .letsgo {
   border-radius: 0;
@@ -1373,7 +1366,7 @@ td {
 #copy-text,
 #copy-text-2 {
   background: yellow;
-  width: 26%;
+  width: 28%;
   margin: 0 !important;
   padding: 0 !important;
   color: #121d33;
@@ -1381,7 +1374,7 @@ td {
   text-align: center !important;
 }
 #text-to-copy-2 {
-  width: 70%;
+  width: 68%;
 }
 #copy-text-2 {
   width: 30%;
@@ -1686,14 +1679,20 @@ label.error {
 #showtoasts_2 {
   font-weight: 600;
   background: yellow;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
   font-size: 18px;
   margin: auto 3px;
   padding: 10px 0;
   font-weight: 700;
+  color: #121d33;
   width: auto;
   text-transform: uppercase !important;
 }
-
+#showtoasts:hover,
+#showtoasts_2:hover{
+  border: 1.4px solid yellow;
+}
 .attr-nav > ul > li.dropdown ul.dropdown-menu {
   left: -170px;
   width: 270px;
