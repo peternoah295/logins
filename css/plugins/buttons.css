@@ -2183,7 +2183,12 @@ label.error {
 		font-size: 16px;
 	}
 }
-.navbar-nav li.sm-display-none a{
+@media screen and (max-width: 1092px) {
+  .nav-large{
+    display: none;
+  }
+}
+.navbar-nav li.nav-large a{
   width: 73px;
   height: 55px !important;
 }
