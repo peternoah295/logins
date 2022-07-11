@@ -1819,6 +1819,42 @@ label.error {
     font-size: 17px !important;
   }
 }
+@media screen and (max-width: 450px) {
+  .navbar-nav {
+    width: 65% !important;
+  }
+  .navbar-nav li.lg-display-none {
+    display: flex !important;
+  }
+  .navbar-nav li.lg-display-none img {
+    width: 56px !important;
+    height: 56px !important;
+    margin: 0 !important;
+  }
+  .navbar-nav li.lg-display-none button {
+    width: 75% !important;
+    margin: 3px 5px !important;
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 412px) {
+  .navbar-nav {
+    width: 66% !important;
+  }
+  .navbar-nav li.lg-display-none {
+    display: flex !important;
+  }
+  .navbar-nav li.lg-display-none img {
+    width: 56px !important;
+    height: 56px !important;
+    margin: 0 !important;
+  }
+  .navbar-nav li.lg-display-none button {
+    width: 75% !important;
+    margin: 3px 5px !important;
+    font-size: 17px !important;
+  }
+}
 
 @media screen and (max-width: 390px) {
   .navbar-nav {
