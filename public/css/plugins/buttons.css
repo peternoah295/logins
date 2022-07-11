@@ -1960,18 +1960,6 @@ label.error {
   border-radius: 3px;
 }
 
-.port {
-  border-radius: 0;
-  background: transparent;
-  transform: scale(1.02);
-}
-.port:hover {
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-name: Floating2;
-  animation-timing-function: ease-in-out;
-  z-index: 10000;
-}
 
 @keyframes Floating2 {
   0% {
@@ -2086,8 +2074,20 @@ label.error {
   font-size: 10px !important;
   overflow-x: scroll !important;
 }
-.port{
-  transform: scale(1);
+.footer-bar{
+  border-right: none;
+  border-left: none;
+}
+.port {
+  border-radius: 0;
+  background: transparent;
+}
+.port:hover {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: Floating2;
+  animation-timing-function: ease-in-out;
+  z-index: 10000;
 }
 .port h4 {
 	background: rgba(18, 29, 51, 0.49);
