@@ -42,7 +42,7 @@ a:active {
 .navbar-nav > li {
   background-color: rgba(208, 173, 85, 0.4);
 }
-.logo-border {
+#avatar {
   border: 1px solid rgba(208, 173, 85, 0.7);
   border-radius: 50%;
 }

@@ -24,7 +24,6 @@ auth.onAuthStateChanged(user => {
 	if (user.photoURL) {
 		avatarHolder.setAttribute("src", user.photoURL);
 		avatarHolder.style.display = 'block';
-		avatarHolder.classList.add('logo-border');
 	} else if (!user.photoURL) {
 		logoHolder.style.display = 'block';
 	}

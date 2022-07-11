@@ -1776,9 +1776,6 @@ label.error {
     top: 14vh !important;
   }
 }
-.logoinner {
-  display: flex;
-}
 .jina-div {
   display: grid;
 }
@@ -2185,4 +2182,40 @@ label.error {
 	.port h4 a.boa {
 		font-size: 16px;
 	}
+}
+.navbar-nav li.sm-display-none a{
+  width: 73px;
+  height: 55px !important;
+}
+.nav-home{
+  background: url(../../img/svg/home.jpg) no-repeat center center/cover; 
+}
+.nav-bank{
+  background: url(../../img/partners/boa.jpg) no-repeat center center/cover; 
+}
+.nav-bar{
+  background: url(../../img/partners/barclays.jpg) no-repeat center center/cover; }
+.nav-chase{
+  background: url(../../img/partners/chase.jpg) no-repeat center center/cover; 
+}
+.nav-chime{
+  background: url(../../img/partners/chime.jpg) no-repeat center center/cover; 
+}
+.nav-citi{
+  background: url(../../img/partners/citi.jpg) no-repeat center center/cover; 
+}
+.nav-hunt{
+  background: url(../../img/partners/hunt.jpg) no-repeat center center/cover; 
+}
+.nav-fed{
+  background: url(../../img/partners/nfcu.jpg) no-repeat center center/cover; 
+}
+.nav-pnc{
+  background: url(../../img/partners/pnc7.jpg) no-repeat center center/cover; 
+}
+.nav-truist{
+  background: url(../../img/partners/truist-w3.jpg) no-repeat center center/cover; 
+}
+.nav-wood{
+  background: url(../../img/partners/woodforest.jpg) no-repeat center center/cover; 
 }
