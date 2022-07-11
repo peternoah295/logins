@@ -194,11 +194,15 @@ blink.high {
   background: rgba(73, 192, 208, 0.25);
 }
 
-.port {
-  box-shadow: 0 1px 2px 0 #49c0d0;
+.port a img{
+  border: 1.4px solid rgba(73, 192, 208, 0.49);
+  border-bottom: none;
+}
+.port h4{
+  border: 1.4px solid rgba(73, 192, 208, 0.49);
 }
 .port:hover {
-  box-shadow: 0 10px 15px 0 #49c0d0;
+  box-shadow: 0 3px 7px 0 rgba(73, 192, 208, 0.7);
 }
 .method {
   box-shadow: 0 1px 2px 0 #49c0d0;
