@@ -295,16 +295,6 @@
   color: #121d33 !important;
 }
 
-.butn:hover,
-.butn:active,
-.butn:focus {
-  color: #121d33 !important;
-}
-.butn.white:hover,
-.butn.white:active,
-.butn.white:focus {
-  color: #fff !important;
-}
 
 .rev_slider_wrapper .butn span {
   font-size: 14px !important;
