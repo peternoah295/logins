@@ -56,7 +56,7 @@ if (auth.isSignInWithEmailLink(window.location.href)) {
 	auth.signInWithEmailLink(email, window.location.href)
 		.then((result) => {
 			if (localStorage.getItem('the-email')) {
-				window.location.assign('dashboard');
+				window.location.assign('home');
 				sendVerificationEmail();
 			} else {
 				alert('Return to previous tab, email has been confirmed')
@@ -73,7 +73,7 @@ const signInWithGoogle = () => {
 	const googleProvider = new firebase.auth.GoogleAuthProvider;
 	auth.signInWithPopup(googleProvider).then(() => {
 		sendVerificationEmail();
-		window.location.assign('dashboard');
+		window.location.assign('home');
 	}).catch(error => {
 		alert(error.message)
 	});
@@ -82,7 +82,7 @@ signGoogle.addEventListener("click", signInWithGoogle);
 
 const signInAnony = () => {
 	auth.signInAnonymously().then(() => {
-		window.location.assign('dashboard');
+		window.location.assign('home');
 	}).catch(error => {
 		alert(error.message)
 	});
@@ -109,7 +109,7 @@ const signInWithPhone = sentCodeId => {
 	const credential = firebase.auth.PhoneAuthProvider.credential(sentCodeId, code);
 	auth.signInWithCredential(credential)
 		.then(() => {
-			window.location.assign('dashboard');
+			window.location.assign('home');
 		})
 		.catch(error => {
 			alert(error.message);
@@ -121,7 +121,7 @@ const signInWithYahoo = () => {
 	const yahooProvider = new firebase.auth.OAuthProvider('yahoo.com');
 	auth.signInWithPopup(yahooProvider).then(() => {
 		sendVerificationEmail();
-		window.location.assign('dashboard');
+		window.location.assign('home');
 	}).catch(error => {
 		alert(error.message);
 	})
@@ -130,7 +130,7 @@ signYahoo.addEventListener("click", signInWithYahoo);
 
 auth.onAuthStateChanged(user => {
 	if (user) {
-		window.location.assign('dashboard');
+		window.location.assign('home');
 	}
 });
 
