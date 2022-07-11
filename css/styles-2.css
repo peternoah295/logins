@@ -157,10 +157,10 @@ blink.high {
 .accordion-style .btn-link:hover {
   background: #03a9f5 !important;
 }
-.cart-thumb {
+#canvas {
   border: 1px solid #03a9f5;
 }
-.cart-thumb:hover {
+#canvas:hover {
   box-shadow: 0 25px 30px 0 #03a9f5;
 }
 #showtoasts,
