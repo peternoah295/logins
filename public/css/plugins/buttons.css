@@ -1315,27 +1315,6 @@ td {
     font-size: 40px;
     margin: 7px 15px !important;
   }
-  .shopwi {
-    font-size: 20px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  .bankof {
-    font-size: 17px !important;
-    padding: 7px 2px !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  .bankof {
-    font-size: 16px !important;
-    padding: 7px 1px !important;
-  }
-}
-@media screen and (max-width: 370px) {
-  .bankof {
-    font-size: 15px !important;
-    padding: 7px 0 !important;
-  }
 }
 
 #invoice-header {
