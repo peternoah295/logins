@@ -1685,6 +1685,8 @@ label.error {
 }
 .scroll-down {
   text-transform: uppercase !important;
+  font-size: 20px !important;
+  padding: 10px !important;
 }
 
 @media screen and (max-width: 390px) {
