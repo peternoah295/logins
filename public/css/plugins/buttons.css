@@ -572,7 +572,7 @@ blink.high {
   text-transform: uppercase;
 }
 .gta:hover {
-  color: #fff;
+  color: #fff !important;
 }
 
 .borderp {
