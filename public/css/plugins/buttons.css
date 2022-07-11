@@ -618,6 +618,8 @@ blink.high {
 }
 
 .goldberg {
+  background: #fff !important;
+  color: #121d33 !important;
   font-size: 17px;
   font-weight: 700;
   text-align: center !important;
