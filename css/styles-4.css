@@ -233,6 +233,10 @@ blink.high {
 ::-webkit-scrollbar-thumb {
   background: #47588f;
 }
+.pricing-list ul li:nth-child(1)::-webkit-scrollbar-track {
+  background: #47588f;
+}
+
 
 .fa-toggle-on {
   color: #47588f;
