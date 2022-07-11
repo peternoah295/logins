@@ -231,7 +231,7 @@ blink.high {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #47588f !important;
+  background: #47588f;
 }
 
 .fa-toggle-on {

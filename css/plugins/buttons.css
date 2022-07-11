@@ -1066,14 +1066,14 @@ select {
   }
 }
 ::-webkit-scrollbar-track {
-  background: #121d33 !important;
-  border-radius: 10px !important;
+  background: #121d33;
+  border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px !important;
+  border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #fff !important;
+  background: #fff;
 }
 
 .pricing-list {
