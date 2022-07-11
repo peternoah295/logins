@@ -1146,6 +1146,12 @@ select {
   width: 10px;
   height: 3px;
 }
+.pricing-list ul li:nth-child(1)::-webkit-scrollbar-thumb {
+  background: rgba(18, 29, 51, 0.92);
+}
+.pricing-list ul li.text-white:nth-child(1)::-webkit-scrollbar-track {
+  background: rgba(18, 29, 51, 0.92);
+}
 .pricing-list ul li.text-white:nth-child(1)::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.92);
 }
