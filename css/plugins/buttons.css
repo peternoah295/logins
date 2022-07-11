@@ -1693,7 +1693,7 @@ label.error {
 }
 @media (max-width: 390px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    left: -125%;
+    left: -145%;
     width: 255%;
   }
 }
@@ -1703,9 +1703,9 @@ label.error {
     width: 255%;
   }
 }
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    left: -140%;
+    left: -160%;
     width: 255%;
   }
 }
@@ -1721,12 +1721,17 @@ label.error {
 }
 @media (max-width: 400px) {
   .attr-nav {
-    margin-right: 21px !important;
+    margin-right: 18px !important;
+  }
+}
+@media (max-width: 375px) {
+  .attr-nav {
+    margin-right: 5px !important;
   }
 }
 @media (max-width: 370px) {
   .attr-nav {
-    margin-right: 12px !important;
+    margin-right: -10px !important;
   }
 }
 
@@ -1843,7 +1848,7 @@ label.error {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   .navbar-nav {
     width: 73% !important;
   }
