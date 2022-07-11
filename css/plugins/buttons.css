@@ -1056,8 +1056,8 @@ select {
   }
 }
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 7px;
+  width: 7px;
+  height: 4.9px;
 }
 @media screen and (max-width: 1092px) {
   ::-webkit-scrollbar {
