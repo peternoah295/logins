@@ -530,8 +530,6 @@ blink.high {
 }
 
 .goldberg {
-  background: white;
-  color: #121d33;
   font-size: 17px;
   font-weight: 700;
   text-align: center !important;
@@ -540,9 +538,6 @@ blink.high {
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
-}
-.goldberg:hover {
-  color: #fff;
 }
 .gta {
   background: white;
