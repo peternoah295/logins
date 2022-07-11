@@ -229,7 +229,7 @@
   height: 1000%;
   z-index: -1;
   transform-origin: 0% 0%;
-  transform: translateX(calc(20% - 20px)) translateY(10%) rotate(-45deg);
+  transform: translateX(calc(20% - 10px)) translateY(10%) rotate(-45deg);
   transition: transform 0.3s;
 }
 .butn:hover:after {
