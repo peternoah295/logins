@@ -276,11 +276,6 @@ header {
   }
 }
 @media screen and (min-width: 1092px) {
-  .scrollHeader .navbar-brand img {
-    height: 45px !important;
-    width: 45px !important;
-    transition-duration: 0.5s;
-  }
   .header-style2 {
     position: absolute;
     width: 100%;
