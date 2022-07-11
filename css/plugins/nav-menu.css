@@ -7,6 +7,7 @@ header {
 .navbar-brand {
   text-transform: uppercase;
   font-weight: 700;
+  display: flex;
 }
 .navbar-brand img {
   height: 47px;
