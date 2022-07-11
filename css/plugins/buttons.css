@@ -1801,7 +1801,7 @@ label.error {
     font-size: 20px !important;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .navbar-nav {
     width: 68% !important;
   }
