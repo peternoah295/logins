@@ -1146,6 +1146,9 @@ select {
   width: 10px;
   height: 3px;
 }
+.pricing-list ul li.text-white:nth-child(1)::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.92);
+}
 .website p{
   overflow-x: scroll !important;
 }
