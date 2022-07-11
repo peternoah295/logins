@@ -23,6 +23,8 @@ header {
 .navbar-default {
   transition: all 0.5s ease 0s;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 4;
 }
 .navbar-default .container,
 .navbar-default .container-fluid {
