@@ -972,6 +972,9 @@ select {
   background: yellow;
   color: #121d33;
 }
+#thetot1:hover{
+  border: 1.4px solid yellow !important;
+}
 @media (max-width: 768px) {
   #thetot1 {
     font-weight: 700;
