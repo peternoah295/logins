@@ -74,9 +74,6 @@ blink.high {
 .butn.white:hover {
   border: 1px solid #fab702;
 }
-.btn-style4 {
-  background-color: #fab702;
-}
 .butn.in-cart {
   border: 1px solid #fab702 !important;
 }
