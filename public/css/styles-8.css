@@ -240,10 +240,10 @@ blink.high {
   }
 }
 ::-webkit-scrollbar-thumb {
-  background: #16a086;
+  background: rgba(73, 192, 208, 0.81);
 }
 .pricing-list ul li:nth-child(1)::-webkit-scrollbar-track {
-  background: #16a086;
+  background: rgba(22, 160, 134, 0.81);
 }
 
 
