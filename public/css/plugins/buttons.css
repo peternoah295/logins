@@ -2127,10 +2127,16 @@ label.error {
   .nav-large{
     display: none;
   }
+  .navbar{
+    padding: 7px 0;
+  }
 }
 @media screen and (min-width: 1092px) {
   .nav-small{
     display: none;
+  }
+  .navbar{
+    padding: 0;
   }
 }
 .navbar-nav li.nav-large a{
