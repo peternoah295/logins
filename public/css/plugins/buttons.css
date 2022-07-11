@@ -152,7 +152,7 @@
   height: 1000%;
   z-index: -1;
   transform-origin: 0% 0%;
-  transform: translateX(calc(20% - 20px)) translateY(10%) rotate(-45deg);
+  transform: translateX(calc(21% - 20px)) translateY(10%) rotate(-45deg);
   transition: transform 0.3s;
 }
 .butn:hover:after {
@@ -162,6 +162,7 @@
   background: #fff;
   color: #121d33;
   padding: 8px 16px;
+  font-weight: 700 !important;
 }
 .butn:hover {
   border: 1px solid #121d33;
@@ -574,10 +575,11 @@ blink.high {
 }
 
 .lesnar {
-  background: yellow;
+  background: yellow !important;
   padding: 0 !important;
   color: #121d33;
   font-size: 19px !important;
+  text-transform: uppercase !important;
   font-weight: 700;
   float: right;
   width: 100% !important;
