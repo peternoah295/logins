@@ -148,6 +148,9 @@ blink.high {
 .filtering span:nth-child(1) > i {
   color: white;
 }
+.filtering span:nth-child(2) {
+  border: 1.4px solid rgba(208, 173, 85, 0.81);
+}
 .accordion-style .btn-link {
   background: #d0ad55 !important;
 }
