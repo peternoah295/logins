@@ -1720,20 +1720,20 @@ label.error {
 }
 @media (max-width: 426px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    left: -145%;
-    width: 275%;
+    left: -120%;
+    width: 255%;
   }
 }
 @media (max-width: 390px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    left: -150%;
-    width: 275%;
+    left: -125%;
+    width: 255%;
   }
 }
 @media (max-width: 374px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    left: -160%;
-    width: 275%;
+    left: -140%;
+    width: 255%;
   }
 }
 
