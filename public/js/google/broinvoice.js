@@ -30,30 +30,30 @@ auth.onAuthStateChanged(user => {
 	if (user.displayName && user.email) {
 		jinaHolder.innerText = user.displayName;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = "Invoice to" + user.email;
+		invoiceHolder.innerHTML = "Invoice to " + user.email;
 	} else if (!user.displayName && user.email) {
 		var themail = user.email;
 		var theaddress = themail.substring(0, themail.indexOf('@'));
 
 		jinaHolder.innerText = theaddress;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = "Invoice to" + user.email;
+		invoiceHolder.innerHTML = "Invoice to " + user.email;
 	} else if (user.phoneNumber && user.displayName) {
 		jinaHolder.innerText = user.displayName;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = "Invoice to" + user.phoneNumber;
+		invoiceHolder.innerHTML = "Invoice to " + user.phoneNumber;
 	}  else if (user.phoneNumber && !user.displayName) {
 		jinaHolder.innerText = user.phoneNumber;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = "Invoice to" + user.phoneNumber;
+		invoiceHolder.innerHTML = "Invoice to " + user.phoneNumber;
 	} else if (user.isAnonymous && user.displayName) {
 		jinaHolder.innerText = user.displayName;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = `User ID: ` + user.uid;
+		invoiceHolder.innerHTML = 'User ID: ' + user.uid;
 	} else if (user.isAnonymous && !user.displayName) {
 		jinaHolder.innerText = 'Anonymous';
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		invoiceHolder.innerHTML = `User ID: ` + user.uid;
+		invoiceHolder.innerHTML = 'User ID: ' + user.uid;
 	}
 });
 
