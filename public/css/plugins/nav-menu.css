@@ -729,7 +729,7 @@ header {
 }
 
 @media (min-width: 769px) and (max-width: 1091px) {
-  .navbar-nav .lg-display-none {
+  .navbar-nav .nav-small {
     display: block !important;
     box-shadow: none;
   }
@@ -1201,7 +1201,7 @@ th {
   font-weight: 600;
   font-size: 16px;
 }
-.navbar-nav > li.lg-display-none > a {
+.navbar-nav > li.nav-small > a {
   color: #121d33;
   font-weight: 600;
   font-size: 20px;

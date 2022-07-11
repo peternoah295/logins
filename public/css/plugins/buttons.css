@@ -622,6 +622,7 @@ blink.high {
   width: 60%;
   padding: 8px;
   align-items: center;
+  text-transform: uppercase;
 }
 .gta-boa {
   font-size: 16px;
@@ -631,6 +632,7 @@ blink.high {
   width: 60%;
   padding: 8px 0 !important;
   align-items: center;
+  text-transform: uppercase;
 }
 .gta:hover {
   color: #fff;
@@ -1784,15 +1786,15 @@ label.error {
   .navbar-nav {
     width: 330px !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 70px !important;
     height: 70px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 80% !important;
     margin: 3px 5px !important;
     font-size: 20px !important;
@@ -1802,15 +1804,15 @@ label.error {
   .navbar-nav {
     width: 68% !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 56px !important;
     height: 56px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 80% !important;
     margin: 3px 5px !important;
     font-size: 17px !important;
@@ -1820,15 +1822,15 @@ label.error {
   .navbar-nav {
     width: 65% !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 56px !important;
     height: 56px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 75% !important;
     margin: 3px 5px !important;
     font-size: 17px !important;
@@ -1838,15 +1840,15 @@ label.error {
   .navbar-nav {
     width: 66% !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 56px !important;
     height: 56px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 75% !important;
     margin: 3px 5px !important;
     font-size: 17px !important;
@@ -1857,15 +1859,15 @@ label.error {
   .navbar-nav {
     width: 73% !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 54px !important;
     height: 54px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 80% !important;
     margin: 3px 5px !important;
     font-size: 17px !important;
@@ -1876,15 +1878,15 @@ label.error {
   .navbar-nav {
     width: 77% !important;
   }
-  .navbar-nav li.lg-display-none {
+  .navbar-nav li.nav-small {
     display: flex !important;
   }
-  .navbar-nav li.lg-display-none img {
+  .navbar-nav li.nav-small img {
     width: 52px !important;
     height: 52px !important;
     margin: 0 !important;
   }
-  .navbar-nav li.lg-display-none button {
+  .navbar-nav li.nav-small button {
     width: 80% !important;
     margin: 3px 5px !important;
     font-size: 17px !important;
@@ -2185,6 +2187,11 @@ label.error {
 }
 @media screen and (max-width: 1092px) {
   .nav-large{
+    display: none;
+  }
+}
+@media screen and (min-width: 1092px) {
+  .nav-small{
     display: none;
   }
 }
