@@ -1718,7 +1718,7 @@ label.error {
     width: 295%;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 526px) {
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
     left: -120%;
     width: 255%;
