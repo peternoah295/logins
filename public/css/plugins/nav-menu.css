@@ -190,8 +190,6 @@ header {
 }
 .attr-nav {
   float: right;
-  margin-left: -20px;
-  margin-right: -10px;
 }
 @media screen and (min-width: 769px) {
   .attr-nav {
@@ -429,7 +427,7 @@ header {
 }
 @media screen and (max-width: 1091px) {
   .navbar-brand {
-    margin: 6px 0 0 0;
+    margin: 0;
   }
   .navbar-nav li > ul {
     box-shadow: none;
@@ -1199,18 +1197,6 @@ th {
 .display-nones {
   filter: blur(0.7px);
   opacity: 0.9;
-}
-.themezo {
-  pointer-events: none !important;
-  filter: blur(0.7px);
-  opacity: 0.9;
-}
-.failuresvg {
-  position: relative;
-  width: 20px;
-  margin-left: 3px;
-  border: none;
-  height: auto;
 }
 h3.text-white {
   font-size: 28px;
