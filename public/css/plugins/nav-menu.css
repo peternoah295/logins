@@ -4,12 +4,7 @@ header {
   position: relative;
   z-index: 99999;
 }
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 700;
-  display: flex;
-}
-.navbar-brand img {
+.navbar-header img {
   height: 47px;
   width: 47px;
   width: auto;
@@ -20,6 +15,7 @@ header {
 .navbar-header {
   padding: 0 !important;
   margin: 0 !important;
+  display: flex;
   width: 50px !important;
   /* background: red !important; */
 }
@@ -37,9 +33,6 @@ header {
   list-style: none;
   background: #121d33;
   transition: background 0.3s ease;
-}
-.navbar-brand span {
-  color: #000;
 }
 .navbar-nav li a {
   display: block;
@@ -291,9 +284,6 @@ header {
   }
 }
 @media screen and (max-width: 1091px) {
-  .navbar-brand {
-    margin: 0;
-  }
   .navbar-nav li > ul {
     box-shadow: none;
   }

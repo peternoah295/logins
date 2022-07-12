@@ -1738,12 +1738,6 @@ label.error {
   }
 }
 
-
-.navbar-brand img {
-  height: 47px !important;
-  width: 47px !important;
-  transition-duration: 0.5s;
-}
 .scroll-down {
   text-transform: uppercase !important;
   font-size: 20px !important;
