@@ -196,27 +196,30 @@ header.scrollHeader .navbar-default {
     z-index: 12399994;
     border: none;
   }
+
   .navbar-toggler:after {
+    transition: all 0.3s ease;
     position: absolute;
     top: 20px;
     right: 12px;
     display: block;
-    height: 8px;
-    width: 20px;
-    border-bottom: 2px solid #121d33;
+    height: 10px;
+    width: 22px;
+    border-bottom: 2.5px solid #121d33 !important;
     content: "";
   }
   .navbar-toggler:before {
     transition: all 0.3s ease;
     position: absolute;
-    top: 14px;
+    top: 12px;
     right: 12px;
     display: block;
     height: 2px;
-    width: 20px;
-    background: #121d33;
+    width: 22px;
+    border: 1.2px solid #121d33 !important;
     content: "";
   }
+
   .navbar-toggler.menu-opened:after {
     transition: all 0.7s ease;
     top: 20px;
