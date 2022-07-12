@@ -149,27 +149,12 @@ header.scrollHeader .navbar-default {
   visibility: visible;
 }
 
-@media screen and (max-width: 569px) {
-  .attr-nav ul.cart-list {
-    padding: 0;
-    width: 327px;
-  }
-}
-.attr-nav ul.cart-list > li {
-  margin: 0;
-}
-
-.navbar ul.cart-list > li img {
+.cart-list > li img {
   width: 50px;
   height: 50px;
-  display: inline-block;
 }
-#thetot,
-#thetot1 {
-  font-size: 19px;
-}
-.navbar ul.cart-list > li.total {
-  padding: 5px;
+.cart-list > li {
+  padding: 4px;
   width: 100%;
 }
 @media screen and (min-width: 1092px) {
@@ -177,14 +162,8 @@ header.scrollHeader .navbar-default {
     position: absolute;
     width: 100%;
   }
-  .header-style2 .attr-nav {
-    margin: 0 -20px !important;
-  }
-  .header-style2 .attr-nav > ul {
-    padding: 0 10px;
-  }
-  .header-style2 .attr-nav > ul > li > a {
-    padding: 0px;
+  .attr-nav {
+    margin: 0 -3px !important;
   }
 }
 @media screen and (max-width: 1091px) {

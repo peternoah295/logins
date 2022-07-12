@@ -67,6 +67,10 @@
     opacity: 0;
   }
 }
+#thetot,
+#thetot1 {
+  font-size: 19px;
+}
 .scroll-down,
 #thetot1,
 #exampleModal .moneycoming,
