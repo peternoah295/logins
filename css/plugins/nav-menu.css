@@ -37,11 +37,10 @@ header.scrollHeader .navbar-default {
 }
 
 .navbar-nav > li {
-  float: left;
   padding: 0;
   margin: 0 1.4px;
   border: 1.4px solid transparent;
-  box-shadow: 0 3px 7px 0 #000;
+  box-shadow: 0 3px 7px 0 rgba(18, 29, 51, 0.85);
 }
 @media screen and (max-width: 1092px) {
   .navbar-nav > li {
@@ -52,15 +51,15 @@ header.scrollHeader .navbar-default {
 @media screen and (min-width: 1092px) {
   .navbar-nav > li:hover,
   .navbar-nav > li.active {
-    box-shadow: 0 25px 30px 0 #000;
+    box-shadow: 0 21px 30px 0 rgba(18, 29, 51, 0.85);
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-name: FloatingNavLarge;
+    animation-name: NavLarge;
     animation-timing-function: ease-in-out;
     z-index: 10000;
   }
 }
-@keyframes FloatingNavLarge {
+@keyframes NavLarge {
   0% {
     transform: translate(0px, 0px);
     transform: scale(1);
@@ -75,45 +74,35 @@ header.scrollHeader .navbar-default {
   }
 }
 .navbar-nav > li > a {
-  position: relative;
   display: block;
-  margin: 0;
-  text-transform: uppercase;
 }
-.navbar ul ul li:last-child {
-  margin-bottom: 0;
+.attr-nav > ul {
+  padding: 0;
+  margin: 0 0 -15px 0;
+  display: inline-block;
 }
-.navbar-nav li > ul {
-  padding: 15px 0;
-  margin: 0 0 0 10px;
-  background: rgba(0, 0, 0, 0.8);
-  min-width: 225px;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+.attr-nav > ul > li {
+  float: left;
+  display: block;
 }
-.attr-nav {
-  float: right;
-}
-@media screen and (min-width: 769px) {
-  .attr-nav {
-    float: right;
-    margin-left: -7px;
-    margin-right: 0px;
-  }
+.attr-nav > ul > li > a span.badge {
+  position: absolute;
+  top: 14%;
+  padding: 0;
+  margin: 5px;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  font-size: 24px;
 }
 .attr-nav .dropdown-toggle:after {
   content: "";
-  margin: 10px 0;
+  margin: 7px;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-name: Floating;
   animation-timing-function: ease-in-out;
   color: yellow;
-}
-@media screen and (min-width: 769px) {
-  .attr-nav .dropdown-toggle:after {
-    content: "";
-    margin: 7px;
-  }
 }
 .fa-angle-down {
   animation-duration: 1s;
@@ -130,35 +119,6 @@ header.scrollHeader .navbar-default {
   }
   100% {
     transform: translate(0px, 0px);
-  }
-}
-.attr-nav > ul {
-  padding: 0;
-  margin: 0 0 -15px 0;
-  list-style: none;
-  display: inline-block;
-}
-.attr-nav > ul > li {
-  float: left;
-  display: block;
-}
-.attr-nav > ul > li > a span.badge {
-  position: absolute;
-  top: 50%;
-  margin-top: -15px;
-  right: 5px;
-  padding: 2px 0 2px 1px;
-  width: 24px;
-  height: 24px;
-  color: #fff;
-  border-radius: 50%;
-  line-height: 20px;
-  font-weight: 600;
-  font-size: 24px;
-}
-@media screen and (max-width: 569px) {
-  .attr-nav > ul > li > a span.badge {
-    width: 24px;
   }
 }
 @keyframes blinker {
