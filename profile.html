@@ -1629,21 +1629,21 @@
     <div class="container-fluid infinite-floating" id="edit-info">
         <div class="row">
 
-            <div class="col-lg-5 col-md-7 col-12 center-col" style="padding: 10px 0">
+            <div class="col-lg-4 col-md-7 col-12 center-col" style="padding: 10px 0">
                 <div class="section-heading">
                     <h4 class="text-white" id="faqz">
                         Edit Account Info
                     </h4>
                 </div>
-                <div class="modal-content">
+                <div class="modal-content" style="background: rgba(18, 29, 51, 0.49)">
                     <form id="edit-form">
-                        <div class="modal-body" style="padding: 0; margin: 0;">
+                        <div class="modal-body" style="padding: 0; margin: 0; background: transparent !important;">
                             <div class="col-md-12">
                                 <label class="margin-10px-top">New Display Name:</label>
                                 <div style="display: flex;">
                                     <input type="text" placeholder="Enter new name..." id="new-name" data-constraints="@LettersOnly @NotEmpty" maxlength="13">
-                                    <button class="butn white" id="update-profile" type="submit">     
-                                        Confirm <img src="img/svg/success.svg" class="lg-display-none">
+                                    <button type="submit" class="butn" id="update-profile">     
+                                        Confirm
                                     </button>
                                 </div>
 

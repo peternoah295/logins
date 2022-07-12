@@ -2032,7 +2032,7 @@ label.error {
 
 #update-profile{
   margin: 0;
-  border: 1.4px solid #ced4da;
+  border: 1.4px solid rgba(135, 206, 235, 1);
   color: #121d33;
   background: yellow;
   font-size: 17px;
@@ -2040,16 +2040,8 @@ label.error {
   padding: 5px !important;
   width: 120px !important;
   height: 44px !important;
-  text-transform: none !important;
+  text-transform: noe !important;
 }
-#update-profile img{
-  position: relative; 
-  width: 17px; 
-  margin-left: 3px;
-}
-
-
-
 
 
 #nameBro, #nameBro1, #new-name, #new-photo, textarea{
