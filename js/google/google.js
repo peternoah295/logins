@@ -3,7 +3,6 @@ const signUp = document.getElementById('signUp');
 const signGoogle = document.getElementById("signGoogle");
 const signYahoo = document.getElementById('signYahoo');
 
-
 const phoneNumberField = document.getElementById('phoneNumber');
 const codeField = document.getElementById('code');
 const signInWithPhoneButton = document.getElementById('signInWithPhone');
@@ -79,6 +78,7 @@ const signInWithGoogle = () => {
 	});
 };
 signGoogle.addEventListener("click", signInWithGoogle);
+
 
 
 window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container');
