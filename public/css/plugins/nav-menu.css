@@ -4,35 +4,24 @@ header {
   position: relative;
   z-index: 99999;
 }
-.navbar-header img {
-  height: 47px;
-  width: 47px;
-  width: auto;
-  transition-duration: 0.5s;
-  margin: 0 5px 0 -10px;
-  padding: 0;
-}
 .navbar-header {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
   display: flex;
   width: 50px !important;
   /* background: red !important; */
+}
+.navbar-header img {
+  height: 47px;
+  width: 47px;
+  margin: 0 5px 0 -10px;
+  padding: 0;
 }
 .navbar-default {
   transition: all 0.5s ease 0s;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 4;
-}
-.navbar-default .container,
-.navbar-default .container-fluid {
-  position: relative;
-}
-.navbar-nav li {
-  list-style: none;
-  background: #121d33;
-  transition: background 0.3s ease;
 }
 .navbar-nav li a {
   display: block;
