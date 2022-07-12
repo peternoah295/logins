@@ -1,9 +1,15 @@
+.thecont{
+	margin-top: 70px;
+}
 .therow {
-	margin: 67px -15px 0 -15px;
+	margin: 0 -15px 0 -15px;
 }
 @media screen and (max-width: 906px) {
+	.thecont{
+		margin-top: 85px;
+	}
 	.therow {
-		margin: 80px -15px 0 -15px;
+		margin: 0 -20px 0 -20px;
 	}
 }
 #profileModal .dataTables_wrapper .dataTables_filter, 
