@@ -218,20 +218,21 @@ header.scrollHeader .navbar-default {
     content: "";
   }
   .navbar-toggler.menu-opened:after {
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
     top: 20px;
-    border: 0;
-    right: 7px;
-    height: 2px;
-    width: 30px;
-    background: #121d33;
+    right: 8.5px;
+    height: 3px;
+    width: 28px;
+    border: 1.4px solid #121d33 !important;
     transform: rotate(45deg);
   }
   .navbar-toggler.menu-opened:before {
+    transition: all 0.7s ease;
     top: 20px;
-    right: 7px;
-    background: #121d33;
-    width: 30px;
+    right: 8.5px;
+    height: 3px;
+    width: 28px;
+    border: 1.4px solid #121d33 !important;
     transform: rotate(-45deg);
   }
   .attr-nav {
