@@ -209,24 +209,6 @@ blink.high {
 #modalsend {
   border: 1.4px solid rgba(22, 160, 134, 0.3);
 }
-.ach-method h4 {
-  box-shadow: 0 1px 2px 0 #16a086;
-}
-
-@keyframes Floating3 {
-  0% {
-    transform: translate(0px, 0px);
-    transform: scale(1);
-  }
-  65% {
-    transform: translate(0px, 1px);
-    transform: scale(1.03);
-  }
-  100% {
-    transform: translate(0px, 0px);
-    transform: scale(1);
-  }
-}
 ::-webkit-scrollbar-thumb {
   background: rgba(22, 160, 134, 0.81);
 }

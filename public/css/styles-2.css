@@ -187,9 +187,6 @@ blink.high {
 #modalsend {
   border: 1.4px solid rgba(3, 169, 245, 0.3);
 }
-.ach-method h4 {
-  box-shadow: 0 1px 2px 0 #03a9f5;
-}
 .pricing-list {
   border: 1.5px solid #03a9f5;
 }
@@ -201,20 +198,6 @@ blink.high {
 }
 .pricing-list ul li:after {
   background: rgba(3, 169, 245, 0.25);
-}
-@keyframes Floating3 {
-  0% {
-    transform: translate(0px, 0px);
-    transform: scale(1);
-  }
-  65% {
-    transform: translate(0px, 1px);
-    transform: scale(1.03);
-  }
-  100% {
-    transform: translate(0px, 0px);
-    transform: scale(1);
-  }
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(3, 169, 245, 0.81);
