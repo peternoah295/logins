@@ -60,12 +60,12 @@ header {
     box-shadow: 0 25px 30px 0 #000;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-name: Floating2small;
+    animation-name: FloatingNavLarge;
     animation-timing-function: ease-in-out;
     z-index: 10000;
   }
 }
-@keyframes Floating2small {
+@keyframes FloatingNavLarge {
   0% {
     transform: translate(0px, 0px);
     transform: scale(1);
@@ -82,24 +82,14 @@ header {
 .navbar-nav > li > a {
   position: relative;
   display: block;
-  font-size: 14px;
-  font-weight: 600;
   margin: 0;
-  padding: 15px 2.3px;
-  color: #000;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
 }
 .navbar-nav ul {
   position: absolute;
   left: -9999px;
 }
 .navbar ul ul li {
-  -webkit-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
   transition: all 0.25s ease;
   margin-bottom: 12px;
   padding: 0 20px;
@@ -374,7 +364,7 @@ header {
     width: 45px;
     height: 40px;
     padding: 0;
-    border-radius: 1px;
+    border-radius: 0;
     position: absolute;
     right: 0;
     top: 15px;
@@ -389,13 +379,10 @@ header {
     display: block;
     height: 8px;
     width: 20px;
-    border-top: 2px solid #121d33;
     border-bottom: 2px solid #121d33;
     content: "";
   }
   .navbar-toggler:before {
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
     position: absolute;
     top: 14px;
@@ -407,28 +394,18 @@ header {
     content: "";
   }
   .navbar-toggler.menu-opened:after {
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
     top: 20px;
     border: 0;
     height: 2px;
     width: 19px;
     background: #121d33;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   .navbar-toggler.menu-opened:before {
     top: 20px;
     background: #121d33;
     width: 19px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
   .navbar-toggler.small {
@@ -464,39 +441,20 @@ header {
     background: #fff;
   }
   .header-style2 .navbar-toggler:after {
-    border-top: 2px solid #232323;
-    border-bottom: 2px solid #232323;
+    border-top: 2px solid #121d33;
+    border-bottom: 2px solid #121d33;
   }
   .header-style2 .navbar-toggler:before {
-    background: #232323;
+    background: #121d33;
   }
   .header-style2 .navbar-toggler.menu-opened:after {
-    background: #232323;
+    background: #121d33;
     border-bottom: none;
   }
   .header-style2 .navbar-toggler.menu-opened:before {
-    background: #232323;
-  }
-  .header-style2.scrollHeader .attr-nav > ul > li > a {
-    color: #232323;
-  }
-  .header-style2 .attr-nav > ul > li.dropdown ul.dropdown-menu {
-    background: #fff;
-  }
-  .header-style2 .attr-nav ul.cart-list > li {
-    border-bottom: 1.4px solid #dcdcdc;
-  }
-  .header-style2 .attr-nav ul.cart-list > li.total {
-    border: none;
-  }
-  .header-style2 .navbar ul.cart-list > li img {
-    border: 1.4px solid #c5c5c5;
-  }
-  .header-style2 .attr-nav > ul > li > a {
-    color: #fff;
+    background: #121d33;
   }
 }
-/*# sourceMappingURL=nav-menu.css.map */
 .cart-list li {
   border-bottom: 1.4px solid rgba(255, 255, 255, 0.7) !important;
 }
@@ -566,7 +524,6 @@ header {
     top: 8vh;
     display: none !important;
   }
-
   .attr-nav {
     margin-right: 65px !important;
   }
@@ -580,7 +537,6 @@ header {
     margin: -10px 0 !important;
   }
 }
-
 
 #jinaHolder {
   font-weight: 700;
@@ -610,17 +566,4 @@ header {
   #jinaHolder2 {
     font-size: 6px !important;
   }
-}
-
-.navbar-nav > li > a {
-  color: #121d33;
-  font-weight: 600;
-  font-size: 16px;
-}
-.navbar-nav > li.nav-small > a {
-  color: #121d33;
-  font-weight: 600;
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
 }
