@@ -585,6 +585,7 @@ header {
 #jinaHolder {
   font-weight: 700;
   color: white;
+  text-transform: uppercase !important;
   margin-top: 3px;
   font-size: 20px;
 }
