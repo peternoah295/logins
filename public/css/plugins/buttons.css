@@ -2119,6 +2119,17 @@ label.error {
 		font-size: 36px;
 	}
 }
+@media screen and (max-width: 769px) {
+	.port a img {
+		height: 170px;
+	}
+	.port h4 a {
+		font-size: 24px;
+	}
+	.port h4 a.boa {
+		font-size: 23px;
+	}
+}
 @media screen and (max-width: 506px) {
 	.port a img {
 		height: 150px;
