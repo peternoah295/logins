@@ -104,39 +104,7 @@ auth.onAuthStateChanged(user => {
 				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = user.phoneNumber;
 			}
 		}
-	} else if(user.isAnonymous && user.displayName){
-		jinaHolder.innerText = user.displayName;
-		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		tableidHolder.value = "Name: " + user.displayName;
-		tableidHolder2.value = "Name: " + user.displayName;
-
-		email1.innerHTML = `Always use VPN, while logging into a bank log, and set the location based on the address information on the bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
-		email5.innerHTML = `Logged in anonymously, no email invoice will be sent`;
-
-		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
-			goodies = JSON.parse(localStorage.getItem('banklogs'));
-			for (var i = 0; i < goodies.length; i++) {
-				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = user.displayName;
-			}
-		}
-	} else if(user.isAnonymous && !user.displayName){
-		jinaHolder.innerText = 'Anonymous';
-		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		tableidHolder.value = "Name: Anonymous";
-		tableidHolder2.value = "Name: Anonymous";
-
-		email1.innerHTML = `Always use VPN, while logging into a bank log, and set the location based on the address information on the bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
-		email5.innerHTML = `Logged in anonymously, no email invoice will be sent`;
-
-		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
-			goodies = JSON.parse(localStorage.getItem('banklogs'));
-			for (var i = 0; i < goodies.length; i++) {
-				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = 'Anonymous';
-			}
-		}
-	}
+	} 
 });
 fetch('https://ipapi.co/json/')
 	.then(function(response) {
