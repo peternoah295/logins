@@ -33,10 +33,8 @@ a:active {
 .attr-nav > ul > li.dropdown ul.dropdown-menu li {
   border-bottom: 1.4px solid rgba(255, 255, 255, 0.3) !important;
 }
-.header-style2 .navbar-default {
-  border-bottom: 1.4px solid rgba(3, 169, 245, 0.49);
-}
-.header-style2.scrollHeader .navbar-default {
+
+.navbar-default {
   border-bottom: 1.4px solid rgba(3, 169, 245, 0.49);
 }
 .footer-bar{

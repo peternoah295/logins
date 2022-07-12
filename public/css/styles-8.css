@@ -37,10 +37,7 @@ a:active {
   border-bottom: 1.4px solid rgba(255, 255, 255, 0.3) !important;
 }
 
-.header-style2 .navbar-default {
-  border-bottom: 1.4px solid rgba(22, 160, 134, 0.49);
-}
-.header-style2.scrollHeader .navbar-default {
+.navbar-default {
   border-bottom: 1.4px solid rgba(22, 160, 134, 0.49);
 }
 .footer-bar{
