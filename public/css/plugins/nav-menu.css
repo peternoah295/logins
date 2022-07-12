@@ -221,15 +221,17 @@ header.scrollHeader .navbar-default {
     transition: all 0.3s ease;
     top: 20px;
     border: 0;
+    right: 7px;
     height: 2px;
-    width: 19px;
+    width: 30px;
     background: #121d33;
     transform: rotate(45deg);
   }
   .navbar-toggler.menu-opened:before {
     top: 20px;
+    right: 7px;
     background: #121d33;
-    width: 19px;
+    width: 30px;
     transform: rotate(-45deg);
   }
   .attr-nav {
