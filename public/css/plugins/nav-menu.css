@@ -85,15 +85,6 @@ header {
   margin: 0;
   text-transform: uppercase;
 }
-.navbar-nav ul {
-  position: absolute;
-  left: -9999px;
-}
-.navbar ul ul li {
-  transition: all 0.25s ease;
-  margin-bottom: 12px;
-  padding: 0 20px;
-}
 .navbar ul ul li:last-child {
   margin-bottom: 0;
 }
@@ -103,14 +94,6 @@ header {
   background: rgba(0, 0, 0, 0.8);
   min-width: 225px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-}
-.navbar-nav li:hover > ul {
-  left: auto;
-}
-.navbar li > ul ul {
-  margin-top: -39px;
-  margin-left: 200px;
-  min-width: 200px;
 }
 .attr-nav {
   float: right;
@@ -163,12 +146,6 @@ header {
 .attr-nav > ul > li {
   float: left;
   display: block;
-}
-.attr-nav > ul > li > a {
-  color: #000;
-  display: block;
-  padding: 0 5px;
-  position: relative;
 }
 .attr-nav > ul > li > a span.badge {
   position: absolute;
@@ -240,23 +217,19 @@ header {
 }
 .navbar ul.cart-list > li.total {
   padding: 5px;
-  display: inline-block;
   width: 100%;
-  vertical-align: top;
 }
-@media screen and (min-width: 292px) {
-  header.scrollHeader .navbar-default {
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-    background: rgba(18, 29, 51, 0.85) !important;
-    left: 0;
-    transition: all 0.2s ease 0s;
-    box-shadow: 0 20px 40px rgba(18, 29, 51, 0.7);
-    padding: 0 !important;
-    margin: 0 !important;
-  }
+header.scrollHeader .navbar-default {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background: rgba(18, 29, 51, 0.85);
+  transition: all 0.2s ease 0s;
+  box-shadow: 0 20px 40px rgba(18, 29, 51, 0.7);
+  padding: 0 !important;
+  margin: 0 !important;
 }
 @media screen and (min-width: 1092px) {
   .header-style2 {
