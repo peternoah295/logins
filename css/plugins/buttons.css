@@ -2067,32 +2067,9 @@ label.error {
   color: #121d33 !important;
   height: 44px !important;
 }
-.telegram-ahref,
-.darknet-ahref{
-  padding: 10px 0 !important;
-  background: #fff !important;
-}
-@media screen and (max-width: 1092px) {
-  .telegram-ahref,
-  .darknet-ahref{
-    color: #121d33 !important;
-  }
-}
-.darknet-a{
-  color: rgba(18, 29, 51, 1) !important;
-}
-.darknet-link{
-  color: rgba(18, 29, 51, 1) !important;
-  display: none !important;
-}
+
 .tutorial-img{
   width: 70px !important;
-}
-
-@media screen and (min-width: 1092px) {
-  .darknet-link{
-    display: none !important;
-  }
 }
 
 .site-link{
