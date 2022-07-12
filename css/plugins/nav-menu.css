@@ -134,19 +134,17 @@ header.scrollHeader .navbar-default {
 .attr-nav > ul > li.dropdown ul.dropdown-menu {
   position: absolute;
   border-radius: 0;
-  overflow-y: hidden;
+  /* overflow-y: scroll !important; */
   padding: 0;
-  background: white !important;
-  margin: 20px 0 0 10px;
-  transition: all 0.5s ease;
+  margin: 0;
+  background: white;
+  transition: all 2.1s ease;
   visibility: hidden;
-  top: 9.7vh;
-  border-radius: 0;
+  top: 12vh;
   opacity: 0;
 }
 
 .attr-nav > ul > li.dropdown:hover ul.dropdown-menu {
-  margin-top: 0;
   opacity: 1;
   visibility: visible;
 }
