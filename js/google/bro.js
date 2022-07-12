@@ -19,7 +19,7 @@ const auth = firebase.auth();
 
 auth.onAuthStateChanged(user => {
 	if (!user) {
-		window.location.assign("index");
+		// window.location.assign("index");
 	}
 	if (user.photoURL) {
 		avatarHolder.setAttribute("src", user.photoURL);
@@ -41,7 +41,13 @@ auth.onAuthStateChanged(user => {
 	} else if (user.phoneNumber && !user.displayName) {
 		jinaHolder.innerText = user.phoneNumber;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-	} 
+	} else if(user.isAnonymous && user.displayName){
+		jinaHolder.innerText = user.displayName;
+		jinaHolder2.innerText = 'User ID: ' + user.uid;
+	} else if(user.isAnonymous && !user.displayName){
+		jinaHolder.innerText = 'Anonymous';
+		jinaHolder2.innerText = 'User ID: ' + user.uid;
+	}
 });
 
 const logOut = document.getElementById('logout');
