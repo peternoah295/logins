@@ -285,21 +285,13 @@ header.scrollHeader .navbar-default {
     left: 0;
     width: 100%;
   }
-  .header-style2 .navbar-toggler {
-    background: #fff;
+  .navbar-toggler:after {
+    border-top: 2.5px solid #121d33;
   }
-  .header-style2 .navbar-toggler:after {
-    border-top: 2px solid #121d33;
-    border-bottom: 2px solid #121d33;
-  }
-  .header-style2 .navbar-toggler:before {
+  .navbar-toggler:before {
     background: #121d33;
   }
-  .header-style2 .navbar-toggler.menu-opened:after {
-    background: #121d33;
-    border-bottom: none;
-  }
-  .header-style2 .navbar-toggler.menu-opened:before {
+  .navbar-toggler.menu-opened:after {
     background: #121d33;
   }
 }
