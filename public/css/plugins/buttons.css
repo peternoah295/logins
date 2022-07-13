@@ -1613,55 +1613,18 @@ label.error {
 }
 @media (max-width: 776px) {
   .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -165%;
-    width: 295%;
+    left: -100%;
+    width: 150%;
   }
-}
-@media (max-width: 526px) {
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -120%;
-    width: 255%;
-  }
-}
-@media (max-width: 390px) {
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -145%;
-    width: 255%;
-  }
-}
-@media (max-width: 380px) {
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -130%;
-    width: 255%;
-  }
-}
-@media (max-width: 375px) {
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -160%;
-    width: 255%;
-  }
-}
-@media (max-width: 767px) {
-  .attr-nav {
-    margin-right: 50px !important;
-  }
-}
-@media (max-width: 420px) {
   .attr-nav {
     margin-right: 60px !important;
   }
 }
-@media (max-width: 400px) {
-  .attr-nav {
-    margin-right: 50px !important;
+@media (max-width: 526px) {
+  .attr-nav > li.dropdown ul.dropdown-menu {
+    left: -100%;
+    width: 220%;
   }
-}
-@media (max-width: 375px) {
-  .attr-nav {
-    margin-right: 50px !important;
-  }
-}
-@media (max-width: 370px) {
   .attr-nav {
     margin-right: 50px !important;
   }
