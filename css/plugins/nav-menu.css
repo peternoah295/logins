@@ -295,53 +295,6 @@ header.scrollHeader .navbar-default {
     background: #121d33;
   }
 }
-@media screen and (max-width: 769px) and (min-width: 568px) {
-  .navbar-nav {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    top: 68px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .attr-nav {
-    margin-right: 55px !important;
-  }
-  .attr-nav ul li a::after {
-    color: yellow !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    margin-left: -70px !important;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1091px) {
-  .navbar-nav .nav-small {
-    display: block !important;
-    box-shadow: none;
-  }
-  .navbar-nav {
-    width: 38%;
-  }
-  .attr-nav > li.dropdown ul.dropdown-menu {
-    left: -75vw;
-    width: 92vw;
-    top: 8vh;
-    display: none !important;
-  }
-  .attr-nav {
-    margin-right: 65px !important;
-  }
-  .attr-nav ul li a::after {
-    color: yellow !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    margin-left: -0px !important;
-  }
-}
 
 #jinaHolder {
   font-weight: 700;
