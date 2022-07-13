@@ -512,6 +512,7 @@ blink.high {
   font-weight: 700;
   float: right;
   width: 100% !important;
+  cursor: pointer !important;
 }
 .thegold {
   display: flex !important;
@@ -2141,6 +2142,6 @@ label.error {
 .nav-wood{
   background: url(../../img/partners/woodforest.jpg) no-repeat center center/cover; 
 }
-.telegram{
+.thegold a{
   padding: 10px 0 !important;
 }
