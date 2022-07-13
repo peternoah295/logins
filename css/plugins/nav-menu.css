@@ -64,7 +64,7 @@ header.scrollHeader .navbar-default {
     transform: translate(0px, 0px);
     transform: scale(1);
   }
-  65% {
+  50% {
     transform: translate(0px, 1px);
     transform: scale(1.1);
   }
@@ -88,14 +88,6 @@ header.scrollHeader .navbar-default {
   padding: 0;
   background: #121d33;
   border-radius: 50%;
-}
-@media screen and (min-width: 500px) and (max-width: 769px) {
-  #canvas {
-    margin-right: 80px;
-  }
-  #cartlength {
-    margin-right: 80px;
-  }
 }
 #cartlength {
   display: inline-block;
