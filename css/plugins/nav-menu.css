@@ -82,6 +82,21 @@ header.scrollHeader .navbar-default {
   float: left;
   display: block;
 }
+#canvas {
+  border-radius: 50%;
+  margin: 0 0 0 20px;
+  padding: 0;
+  background: #121d33;
+  border-radius: 50%;
+}
+@media screen and (min-width: 500px) and (max-width: 769px) {
+  #canvas {
+    margin-right: 80px;
+  }
+  #cartlength {
+    margin-right: 80px;
+  }
+}
 #cartlength {
   display: inline-block;
   font-weight: 700;
@@ -94,6 +109,14 @@ header.scrollHeader .navbar-default {
   height: 24px;
   border-radius: 0;
   font-size: 24px;
+  animation: blinker 1s linear infinite;
+  color: #121d33;
+  background: yellow;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 .attr-nav .dropdown-toggle:after {
   content: "";
@@ -120,16 +143,6 @@ header.scrollHeader .navbar-default {
   100% {
     transform: translate(0px, 0px);
   }
-}
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-#cartlength {
-  animation: blinker 1s linear infinite;
-  color: #121d33;
-  background: yellow;
 }
 .attr-nav > li.dropdown ul.dropdown-menu {
   position: absolute;
@@ -326,9 +339,6 @@ header.scrollHeader .navbar-default {
     margin: 0 !important;
     padding: 0 !important;
     margin-left: -0px !important;
-  }
-  #cartlength {
-    margin: -10px 0 !important;
   }
 }
 
