@@ -38,6 +38,11 @@
 .counter-box h4:after {
 	content: "+";
 }
+.counter-box p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+  }
 @media screen and (max-width: 767px) {
 	.counter-box p:before {
 		margin: 0;
