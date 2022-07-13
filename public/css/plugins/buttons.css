@@ -1589,17 +1589,22 @@ label.error {
 #showtoasts_2:hover{
   border: 1.4px solid yellow;
 }
-.attr-nav > li.dropdown ul.dropdown-menu {
-  left: -170px;
-  width: 270px;
-}
 .attr-nav > li.dropdown ul.dropdown-menu li:last-child {
     border-bottom: none !important;
 }
-@media (max-width: 776px) {
+@media (min-width: 1092px) {
+  .attr-nav > li.dropdown ul.dropdown-menu {
+    left: -120%;
+    width: 220%;
+  }
+  .attr-nav {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 1092px) {
   .attr-nav > li.dropdown ul.dropdown-menu {
     left: -100%;
-    width: 150%;
+    width: 220%;
   }
   .attr-nav {
     margin-right: 60px !important;
