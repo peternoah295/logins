@@ -1604,39 +1604,39 @@ label.error {
 #showtoasts_2:hover{
   border: 1.4px solid yellow;
 }
-.attr-nav > ul > li.dropdown ul.dropdown-menu {
+.attr-nav > li.dropdown ul.dropdown-menu {
   left: -170px;
   width: 270px;
 }
-.attr-nav > ul > li.dropdown ul.dropdown-menu li:last-child {
+.attr-nav > li.dropdown ul.dropdown-menu li:last-child {
     border-bottom: none !important;
 }
 @media (max-width: 776px) {
-  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+  .attr-nav > li.dropdown ul.dropdown-menu {
     left: -165%;
     width: 295%;
   }
 }
 @media (max-width: 526px) {
-  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+  .attr-nav > li.dropdown ul.dropdown-menu {
     left: -120%;
     width: 255%;
   }
 }
 @media (max-width: 390px) {
-  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+  .attr-nav > li.dropdown ul.dropdown-menu {
     left: -145%;
     width: 255%;
   }
 }
 @media (max-width: 380px) {
-  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+  .attr-nav > li.dropdown ul.dropdown-menu {
     left: -130%;
     width: 255%;
   }
 }
 @media (max-width: 375px) {
-  .attr-nav > ul > li.dropdown ul.dropdown-menu {
+  .attr-nav > li.dropdown ul.dropdown-menu {
     left: -160%;
     width: 255%;
   }
