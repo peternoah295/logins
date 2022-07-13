@@ -3347,69 +3347,6 @@ input[type="button"].btn-block, input[type="reset"].btn-block, input[type="submi
 .tab-content>.active {
 	display: block;
 }
-.navbar {
-	position: relative;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-.navbar-nav {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	padding-left: 0;
-	margin-bottom: 0;
-	list-style: none;
-	margin-left: auto;
-}
-.navbar-nav .dropdown-menu {
-	position: static;
-	float: none;
-}
-.navbar-toggler {
-	padding: 0.25rem 0.75rem;
-	font-size: 1.25rem;
-	line-height: 1;
-	background-color: transparent;
-	border: 1px solid transparent;
-	border-radius: 0.25rem;
-}
-.navbar-toggler:focus, .navbar-toggler:hover {
-	text-decoration: none;
-}
-.navbar-toggler-icon {
-	display: inline-block;
-	width: 1.5em;
-	height: 1.5em;
-	vertical-align: middle;
-	content: "";
-	background: no-repeat center center;
-	background-size: 100% 100%;
-}
-@media (min-width: 1092px) {
-	.navbar {
-		-ms-flex-flow: row nowrap;
-		flex-flow: row nowrap;
-		-ms-flex-pack: start;
-		justify-content: flex-start;
-   }
-	.navbar .navbar-nav {
-		-ms-flex-direction: row;
-		flex-direction: row;
-   }
-	.navbar .navbar-nav .dropdown-menu {
-		position: absolute;
-   }
-	.navbar .navbar-toggler {
-		display: none;
-   }
-}
 .card {
 	position: relative;
 	display: -ms-flexbox;
@@ -7747,9 +7684,6 @@ a.text-dark:focus, a.text-dark:hover {
    }
 	.container {
 		min-width: 1092px !important;
-   }
-	.navbar {
-		display: none;
    }
 	.table {
 		border-collapse: collapse !important;

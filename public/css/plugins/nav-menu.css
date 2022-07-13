@@ -4,6 +4,26 @@ header {
   position: relative;
   z-index: 99999;
 }
+.navbar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar-nav {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	margin-left: auto;
+}
+@media (min-width: 1092px) {
+	.navbar-nav {
+		flex-direction: row;
+   }
+}
+
 .navbar-header {
   padding: 0;
   margin: 0;
