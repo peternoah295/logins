@@ -17,7 +17,7 @@ a:active {
   color: #fab702;
   text-decoration: none;
 }
-.bg-theme {
+.thegold {
   background-color: rgba(250, 183, 2, 0.3);
 }
 @media screen and (max-width: 1092px) {
@@ -89,7 +89,7 @@ blink.high {
 .lesnar {
   border: 1.4px solid #fab702;
 }
-.goldberg {
+.gold {
   border: 1.4px solid rgba(250, 183, 2, 0.8);
 }
 .gta,
