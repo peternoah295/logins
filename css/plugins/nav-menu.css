@@ -89,7 +89,7 @@ header.scrollHeader .navbar-default {
   position: absolute;
   top: 14%;
   padding: 0;
-  margin: 5px;
+  /* margin: 5px; */
   width: 24px;
   height: 24px;
   border-radius: 0;
@@ -199,7 +199,6 @@ header.scrollHeader .navbar-default {
     z-index: 12399994;
     border: none;
   }
-
   .navbar-toggler:after {
     transition: all 0.3s ease;
     position: absolute;
@@ -222,7 +221,6 @@ header.scrollHeader .navbar-default {
     border: 1.2px solid #121d33 !important;
     content: "";
   }
-
   .navbar-toggler.menu-opened:after {
     transition: all 0.7s ease;
     top: 20px;
@@ -302,9 +300,6 @@ header.scrollHeader .navbar-default {
     padding: 0 !important;
     margin-left: -70px !important;
   }
-  #cartlength {
-    margin: -10px 0 !important;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 1091px) {
@@ -329,9 +324,6 @@ header.scrollHeader .navbar-default {
     margin: 0 !important;
     padding: 0 !important;
     margin-left: -0px !important;
-  }
-  #cartlength {
-    margin: -10px 0 !important;
   }
 }
 
