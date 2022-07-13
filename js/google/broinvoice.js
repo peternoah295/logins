@@ -46,7 +46,15 @@ auth.onAuthStateChanged(user => {
 		jinaHolder.innerText = user.phoneNumber;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
 		invoiceHolder.innerHTML = "Invoice to: " + user.phoneNumber;
-	} 
+	} else if(user.isAnonymous && user.displayName){
+		jinaHolder.innerText = user.displayName;
+		jinaHolder2.innerText = 'User ID: '+ user.uid;
+		invoiceHolder.innerText = 'User ID: '+ user.uid;
+	} else if(user.isAnonymous && !user.displayName){
+		jinaHolder.innerText = 'Anonymous';
+		jinaHolder2.innerText = 'User ID: '+ user.uid;
+		invoiceHolder.innerText = 'User ID: '+ user.uid;
+	}
 });
 
 document.getElementById("thebodyz").oncontextmenu = function() {
