@@ -6,9 +6,6 @@
   border: 1.4px solid rgba(22, 160, 134, 0.7);
   border-radius: 50%;
 }
-.navbar-nav > li {
-  background-color: rgba(73, 192, 208, 0.4);
-}
 #preloader:before {
   border: 3px solid #16a086;
 }

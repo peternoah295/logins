@@ -170,9 +170,6 @@ header.scrollHeader .navbar-default {
     position: absolute;
     width: 100%;
   }
-  .attr-nav {
-    margin: 0 -3px !important;
-  }
 }
 @media screen and (max-width: 1091px) {
   .navbar-nav {
