@@ -451,21 +451,6 @@ blink.high {
 .accordion-style h5{
   margin-bottom: 0;
 }
-#canvas {
-  border-radius: 50%;
-  margin: 0 0 0 20px;
-  padding: 0;
-  background: #121d33;
-  border-radius: 50%;
-}
-@media screen and (min-width: 500px) and (max-width: 769px) {
-  #canvas {
-    margin-right: 80px;
-  }
-  #cartlength {
-    margin-right: 80px;
-  }
-}
 
 .footer-bar {
   padding-top: 20px;
