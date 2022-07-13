@@ -85,7 +85,7 @@ header.scrollHeader .navbar-default {
   float: left;
   display: block;
 }
-.attr-nav > ul > li > a span.badge {
+#cartlength {
   display: inline-block;
   font-weight: 700;
   text-align: center;
