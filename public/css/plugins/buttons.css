@@ -523,25 +523,6 @@ blink.high {
 .gold:hover{
   color: #121d33 !important;
 }
-.gta {
-  font-weight: 700;
-  background: #fff;
-  color: #121d33;
-  width: 60%;
-  padding: 8px;
-  align-items: center;
-  text-transform: uppercase;
-}
-.gta-boa {
-  font-size: 16px;
-  background: #fff;
-  color: #121d33;
-  font-weight: 700;
-  width: 60%;
-  padding: 8px 0 !important;
-  align-items: center;
-  text-transform: uppercase;
-}
 
 .borderp {
   width: 36px;

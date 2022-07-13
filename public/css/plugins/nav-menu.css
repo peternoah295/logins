@@ -316,17 +316,22 @@ header.scrollHeader .navbar-default {
   .navbar-nav li.nav-small img {
     width: 70px !important;
     height: 70px !important;
-    margin: 0 !important;
   }
   .navbar-nav li.nav-small button {
     width: 75% !important;
     margin: 3px 5px !important;
     font-size: 20px !important;
+    font-weight: 700;
+    background: #fff;
+    color: #121d33;
+    padding: 8px;
+    align-items: center;
+    text-transform: uppercase;
   }
 }
 @media screen and (max-width: 550px) {
   .navbar-nav {
-    width: 65% !important;
+    width: 68% !important;
   }
   .navbar-nav li.nav-small img {
     width: 56px !important;
@@ -338,7 +343,7 @@ header.scrollHeader .navbar-default {
 }
 @media screen and (max-width: 395px) {
   .navbar-nav {
-    width: 73% !important;
+    width: 75% !important;
   }
   .navbar-nav li.nav-small img {
     width: 53px !important;
