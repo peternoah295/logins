@@ -317,7 +317,7 @@ header.scrollHeader .navbar-default {
     width: 70px !important;
     height: 70px !important;
   }
-  .navbar-nav li.nav-small button {
+  .navbar-nav li.nav-small a {
     width: 75% !important;
     margin: 3px 5px !important;
     font-size: 20px !important;
@@ -337,7 +337,7 @@ header.scrollHeader .navbar-default {
     width: 56px !important;
     height: 56px !important;
   }
-  .navbar-nav li.nav-small button {
+  .navbar-nav li.nav-small a {
     font-size: 17px !important;
   }
 }
