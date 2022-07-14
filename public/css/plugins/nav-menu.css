@@ -302,7 +302,7 @@ header.scrollHeader .navbar-default {
   }
   .navbar-nav li {
     width: 100%;
-    border-bottom: 1.4px solid rgba(255, 255, 255, 0.49);
+    border-bottom: 1.4px solid rgba(255, 255, 255, 0.3);
     position: relative;
     padding: 0;
     margin: 0;
