@@ -1582,10 +1582,15 @@ label.error {
 
 .scroll-down {
   text-transform: uppercase !important;
-  font-size: 20px !important;
-  padding: 10px !important;
+  font-size: 28px !important;
+  padding: 14px !important;
 }
-
+@media (max-width: 1092px) {
+  .scroll-down {
+    font-size: 24px !important;
+    padding: 10px !important;
+  }
+}
 @media screen and (max-width: 390px) {
   .filtering span {
     font-size: 20px;
