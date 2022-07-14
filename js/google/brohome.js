@@ -133,6 +133,34 @@ logOut.addEventListener('click', () => {
 })
 
 
+var duration = 1800; 
+setInterval(updateTimer, 1000);
+function updateTimer() {
+	duration--;
+	if ( duration < 1 ) {
+		auth.signOut()
+			.then(() => {
+				window.location.assign('index');
+			})
+			.catch(error => {
+				console.error(error);
+			})
+	} else {
+		console.log("Auto Logout In: " + formatTime(duration));
+	}	
+}
+window.addEventListener("mousemove", resetTimer);
+function resetTimer() {
+	duration = 1800;
+}
+function formatTime(timeInSeconds) {
+	var minutes = Math.floor(timeInSeconds / 60);
+	var seconds = timeInSeconds % 60;
+	if ( minutes < 10 ) { minutes = "0" + minutes; }
+	if ( seconds < 10 ) { seconds = "0" + seconds; }
+	return minutes + ":" + seconds;
+}
+
 document.getElementById('file').addEventListener('change', (event) => {
 	const file = event.target.files[0];
 	const storageRef = firebase.storage().ref('images/images' + file.name);

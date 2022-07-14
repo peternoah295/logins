@@ -56,7 +56,6 @@ logOut.addEventListener('click', () => {
 })
 
 var duration = 1800; 
-
 setInterval(updateTimer, 1000);
 function updateTimer() {
 	duration--;
