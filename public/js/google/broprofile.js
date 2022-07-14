@@ -44,7 +44,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: " + user.displayName;
 
 		email1.innerHTML = `Check your email spam folder @:<strong>${user.email}</strong> after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = user.email;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
@@ -63,7 +63,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: " + theaddress;
 
 		email1.innerHTML = `Check your email spam folder @:<strong>${user.email}</strong> after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = user.email;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
@@ -79,7 +79,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: " + user.displayName;
 
 		email1.innerHTML = `Check your text messages for a link @:<strong>${user.displayName}</strong> after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = `Logged in with phone ${user.displayName}, you will have to check your text messages inbox for a link`;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
@@ -95,7 +95,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: " + user.phoneNumber;
 
 		email1.innerHTML = `Check your text messages for a link @:<strong>${user.phoneNumber}</strong> after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = `Logged in with phone ${user.phoneNumber}, you will have to check your text messages inbox for a link`;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
@@ -111,7 +111,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: " + user.displayName;
 
 		email1.innerHTML = `Check your text messages for .zip file after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = `Logged in anonymously, no email invoice will be sent`;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
@@ -127,7 +127,7 @@ auth.onAuthStateChanged(user => {
 		tableidHolder2.value = "Name: Anonymous";
 
 		email1.innerHTML = `Check your text messages for .zip file after buying a bank log`;
-		email2.innerHTML = `Use winrar software to extract bank log files from .zip format after a successful download`;
+		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
 		email5.innerHTML = `Logged in anonymously, no email invoice will be sent`;
 
 		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
