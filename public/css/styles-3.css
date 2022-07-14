@@ -25,8 +25,15 @@ a:active {
     border: 1.4px solid rgba(0, 115, 173, 0.7) !important;
     box-shadow: 0px 5px 10px 0px rgba(0, 115, 173, 0.7);
   }
+  .navbar-toggler {
+    border: 1.4px solid #0073ad;
+  }
+  .navbar-toggler:after {
+    border-bottom: 2.5px solid #0073ad;
+  }
   .navbar-toggler:before {
     background: #0073ad;
+    border: 1.2px solid #0073ad;
   }
   .navbar-toggler.menu-opened:after {
     background: #0073ad;
@@ -36,6 +43,9 @@ a:active {
   }
   .navbar-toggler.menu-opened:before {
     border: 1.4px solid #0073ad !important;
+  }
+  .navbar-toggler:after {
+    border-top: 2.5px solid #0073ad;
   }
 }
 .attr-nav > li.dropdown ul.dropdown-menu {

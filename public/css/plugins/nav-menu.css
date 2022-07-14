@@ -159,10 +159,10 @@ header.scrollHeader .navbar-default {
 
 @media screen and (max-width: 1091px) {
   .navbar-toggler {
-    background: white;
+    background: #fff;
     color: #121d33;
-    width: 45px;
-    height: 40px;
+    width: 47px;
+    height: 43px;
     padding: 0;
     border-radius: 0;
     position: absolute;
@@ -170,7 +170,6 @@ header.scrollHeader .navbar-default {
     top: 15px;
     cursor: pointer;
     z-index: 12399994;
-    border: none;
   }
 
   .navbar-toggler:after {
@@ -181,7 +180,6 @@ header.scrollHeader .navbar-default {
     display: block;
     height: 10px;
     width: 22px;
-    border-bottom: 2.5px solid #121d33 !important;
     content: "";
   }
   .navbar-toggler:before {
@@ -192,23 +190,22 @@ header.scrollHeader .navbar-default {
     display: block;
     height: 2px;
     width: 22px;
-    border: 1.2px solid #121d33 !important;
     content: "";
   }
   .navbar-toggler.menu-opened:after {
     transition: all 0.7s ease;
     top: 20px;
-    right: 8.5px;
+    right: 8px;
     height: 3px;
-    width: 28px;
+    width: 30px;
     transform: rotate(45deg);
   }
   .navbar-toggler.menu-opened:before {
     transition: all 0.7s ease;
     top: 20px;
-    right: 8.5px;
+    right: 8px;
     height: 3px;
-    width: 28px;
+    width: 30px;
     transform: rotate(-45deg);
   }
   .attr-nav {
@@ -232,9 +229,6 @@ header.scrollHeader .navbar-default {
     position: absolute;
     left: 0;
     width: 100%;
-  }
-  .navbar-toggler:after {
-    border-top: 2.5px solid #121d33;
   }
 }
 
