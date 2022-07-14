@@ -159,8 +159,8 @@ header.scrollHeader .navbar-default {
 
 @media screen and (max-width: 1091px) {
   .navbar-toggler {
-    background: rgba(18, 29, 51, 0.49);
-    /* background: rgba(255, 255, 255, 1); */
+    /* background: rgba(18, 29, 51, 0.49); */
+    background: rgba(255, 255, 255, 1);
     color: #121d33;
     width: 47px;
     height: 43px;
