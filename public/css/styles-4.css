@@ -20,9 +20,6 @@ a:active {
 .thegold {
   background-color: rgba(71, 88, 143, 0.3);
 }
-.navbar-default {
-  box-shadow: 0 21px 30px rgba(71, 88, 143, 0.21);
-}
 @media screen and (max-width: 1092px) {
   .navbar-nav{
     border: 1.4px solid rgba(71, 88, 143, 0.7) !important;
