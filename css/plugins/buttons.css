@@ -1770,6 +1770,7 @@ label.error {
 #footer-email{
   font-size: 20px !important;
   font-weight: 600 !important;
+  opacity: 0.7;
 }
 
 
