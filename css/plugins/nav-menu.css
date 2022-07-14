@@ -26,6 +26,7 @@ header {
 }
 .navbar-default {
   transition: all 0.7s ease 0s;
+  box-shadow: 0 21px 30px rgba(18, 29, 51, 0.7);
   position: relative;
   z-index: 4;
   top: 0;
