@@ -62,22 +62,12 @@ function updateTimer() {
 			.catch(error => {
 				console.error(error);
 			})
-	} else {
-		console.log("Auto Logout In: " + formatTime(duration));
-	}	
+	} 
 }
 window.addEventListener("mousemove", resetTimer);
 function resetTimer() {
 	duration = 1800;
 }
-function formatTime(timeInSeconds) {
-	var minutes = Math.floor(timeInSeconds / 60);
-	var seconds = timeInSeconds % 60;
-	if ( minutes < 10 ) { minutes = "0" + minutes; }
-	if ( seconds < 10 ) { seconds = "0" + seconds; }
-	return minutes + ":" + seconds;
-}
-
 
 document.getElementById("thebodyz").oncontextmenu = function() {
 	return false
