@@ -55,6 +55,28 @@ logOut.addEventListener('click', () => {
 		})
 })
 
+var duration = 1800; 
+
+setInterval(updateTimer, 1000);
+function updateTimer() {
+	duration--;
+	if ( duration < 1 ) {
+		auth.signOut()
+			.then(() => {
+				window.location.assign('index');
+			})
+			.catch(error => {
+				console.error(error);
+			})
+	} else {
+		console.log("Auto Logout In: " + duration);
+	}	
+}
+window.addEventListener("mousemove", resetTimer);
+function resetTimer() {
+	duration = 1800;
+}
+
 fetch('https://ipapi.co/json/')
 	.then(function(response) {
 		return response.json();
