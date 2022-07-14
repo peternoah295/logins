@@ -25,6 +25,18 @@ a:active {
     border: 1.4px solid rgba(73, 192, 208, 0.7) !important;
     box-shadow: 0px 5px 10px 0px rgba(73, 192, 208, 0.7);
   }
+  .navbar-toggler:before {
+    background: #49c0d0;
+  }
+  .navbar-toggler.menu-opened:after {
+    background: #49c0d0;
+  }
+  .navbar-toggler.menu-opened:after {
+    border: 1.4px solid #49c0d0 !important;
+  }
+  .navbar-toggler.menu-opened:before {
+    border: 1.4px solid #49c0d0 !important;
+  }
 }
 .attr-nav > li.dropdown ul.dropdown-menu {
   border: 1.4px solid rgba(73, 192, 208, 0.7) !important;
