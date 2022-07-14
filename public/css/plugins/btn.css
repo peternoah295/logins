@@ -10,7 +10,7 @@ html {
   .opacity-full-dark {
 	height: 100vh !important;
 	width: 100vw !important;
-	background-color: rgba(0, 0, 0, 0.85);
+	background-color: rgba(0, 0, 0, 0.81);
   }
   .logo {
 	width: 210px;
@@ -24,23 +24,25 @@ html {
 	text-align: center !important;
 	margin-bottom: 50px !important;
   }
+
   .btn {
+	display: inline-block;
 	line-height: inherit;
+	text-transform: capitalize;
 	z-index: 1;
 	overflow: hidden;
-	border-radius: 0;
-	background: yellow;
-	border: 1.4px solid rgba(135, 206, 235, 0.92) !important;
-	letter-spacing: 0.5px;
+	margin-bottom: 3px;
 	font-family: "Montserrat", sans-serif;
-	display: inline-block;
-	line-height: 26px;
-	text-transform: capitalize;
-	color: #121d33;
 	position: relative;
 	text-align: center;
+	border-radius: 0;
+	background: #121d33;
+	border: 1.4px solid rgba(135, 206, 235, 0.92) !important;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	color: #fff;
 	font-weight: 700;
-	transition-duration: 0.3s;
+	transition-duration: 0.7s;
 	transition-timing-function: ease-in-out;
 	padding: 13px;
 	font-size: 24px;
@@ -52,29 +54,43 @@ html {
 	left: 0;
 	width: 500%;
 	height: 1000%;
-	background: rgba(255, 255, 255, 0.3);
 	z-index: -1;
+	background: #121d33;
+	color: #fff;
 	transform-origin: 0% 0%;
-	transform: translateX(calc(20% - 20px)) translateY(10%) rotate(-45deg);
+	transform: translateX(calc(20% - 14px)) translateY(10%) rotate(-45deg);
 	transition: transform 0.3s;
   }
   .btn:hover:after {
 	transform: translateY(10%) translateX(-20px) rotate(-45deg);
   }
-  .btn i {
-	margin-left: 6px;
-	vertical-align: middle;
-	position: relative;
-	top: -1px;
+
+  .btn.gold{
+	background: yellow;
+	color: #121d33;
   }
-  .btn:hover,
-  .btn:active,
-  .btn:focus {
-	background-color: #000 !important;
-	color: aqua !important;
-	box-shadow: none !important;
-	border: 1.4px solid rgba(255, 255, 255, 0.7);
+  .btn.aqua{
+	background: aqua;
+	color: #121d33;
   }
+  .btn.gold:hover{
+	color: aqua;
+  }
+  .btn.aqua:hover{
+	color: aqua;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
   .banner-words-wrapper {
 	display: inline-block;
 	position: relative;
@@ -168,20 +184,6 @@ html {
 	.modal-dialog {
 	  top: 15vh !important;
 	}
-  }
-  #signUp,
-  #signPhone,
-  #signInWithPhone {
-	background: aqua !important;
-	border: 1.4px solid rgba(135, 206, 235, 0.7) !important;
-	font-size: 20px !important;
-	color: #121d33 !important;
-  }
-  #getCode {
-	background: aqua !important;
-	border: 1.4px solid rgba(135, 206, 235, 0.7) !important;
-	font-size: 20px !important;
-	color: #121d33 !important;
   }
   .bg-animate {
 	background-position: 0 0;
