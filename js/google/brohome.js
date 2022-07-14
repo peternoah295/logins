@@ -104,39 +104,7 @@ auth.onAuthStateChanged(user => {
 				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = user.phoneNumber;
 			}
 		}
-	} else if(user.isAnonymous && user.displayName){
-		jinaHolder.innerText = user.displayName;
-		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		tableidHolder.value = "Name: " + user.displayName;
-		tableidHolder2.value = "Name: " + user.displayName;
-
-		email1.innerHTML = `Bank log text files can only be downloaded <strong>ONCE</strong>, save them in a folder you won't forget`;
-		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
-		email5.innerHTML = `Logged in anonymously, no email invoice will be sent, but a text file with bank log info will be available for download after a successful purchase`;
-
-		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
-			goodies = JSON.parse(localStorage.getItem('banklogs'));
-			for (var i = 0; i < goodies.length; i++) {
-				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = user.displayName;
-			}
-		}
-	} else if(user.isAnonymous && !user.displayName){
-		jinaHolder.innerText = 'Anonymous';
-		jinaHolder2.innerText = 'User ID: ' + user.uid;
-		tableidHolder.value = "Name: Anonymous";
-		tableidHolder2.value = "Name: Anonymous";
-
-		email1.innerHTML = `Bank log text files can only be downloaded <strong>ONCE</strong>, save them in a folder you won't forget`;
-		email2.innerHTML = `Always use VPN while logging into a bank log, and set the location based on the address information on the bank log`;
-		email5.innerHTML = `Logged in anonymously, no email invoice will be sent, but a text file with bank log info will be available for download after a successful purchase`;
-
-		if (localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklogs')).length) > 0)) {
-			goodies = JSON.parse(localStorage.getItem('banklogs'));
-			for (var i = 0; i < goodies.length; i++) {
-				document.getElementById(`name-on-table${items.indexOf(items[i])}`).innerHTML = 'Anonymous';
-			}
-		}
-	}
+	} 
 });
 fetch('https://ipapi.co/json/')
 	.then(function(response) {
