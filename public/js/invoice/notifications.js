@@ -75,7 +75,7 @@ auth.onAuthStateChanged(user => {
 						<hr>
 						${items[0].account.replace(']',' ACCOUNT]')} with ${items[0].balance}
 						<hr>
-						An text file with bank log information will be available for download after a successful purchase
+						A text file with bank log info will be available for download after a successful purchase
 					`];
 					i++;
 					if (i === msgs.length) {
@@ -161,7 +161,7 @@ auth.onAuthStateChanged(user => {
 						<hr>
 						${items[2].account.replace(']',' ACCOUNT]')} with ${items[2].balance}
 						<hr>
-						An text file with bank log information will be available for download after a successful purchase
+						A text file with bank log info will be available for download after a successful purchase
 					`];
 					i++;
 					if (i === msgs.length) {
@@ -239,7 +239,7 @@ auth.onAuthStateChanged(user => {
 						<hr>
 						${items[1].account.replace(']',' ACCOUNT]')} with ${items[1].balance}
 						<hr>
-						An text file with bank log information will be available for download after a successful purchase
+						A text file with bank log info will be available for download after a successful purchase
 					`];
 					i++;
 					if (i === msgs.length) {
