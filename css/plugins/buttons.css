@@ -122,27 +122,22 @@
 }
 
 .butn {
-  display: inline-block;
-  line-height: inherit;
-  text-transform: uppercase;
   max-width: 705px;
   z-index: 1;
   overflow: hidden;
-  padding: 8px 16px;
-  border-radius: 0;
+  padding: 7px 14px;
   margin-bottom: 3px;
   letter-spacing: 0.5px;
   font-family: "Montserrat", sans-serif;
   background-color: #121d33;
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 26px;
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
   position: relative;
   text-align: center;
-  transition-duration: 0.3s;
+  transition-duration: 0.7s;
   transition-timing-function: ease-in-out;
   text-transform: capitalize;
   border-radius: 0;
@@ -156,7 +151,7 @@
   height: 1000%;
   z-index: -1;
   transform-origin: 0% 0%;
-  transform: translateX(calc(20% - 10px)) translateY(10%) rotate(-45deg);
+  transform: translateX(calc(20% - 14px)) translateY(10%) rotate(-45deg);
   transition: transform 0.3s;
 }
 .butn:hover:after {
@@ -165,8 +160,8 @@
 .butn.white {
   background: #fff;
   color: #121d33;
-  padding: 8px 16px;
-  font-weight: 700 !important;
+  padding: 7px 14px;
+  font-weight: 700;
 }
 .butn:hover {
   border: 1.4px solid #121d33;
@@ -177,50 +172,34 @@
 .butn.white:after {
   background: #121d33;
 }
-@media screen and (max-width: 1091px) {
-  .butn,
-  butn.white {
-    padding: 8px 18px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .butn,
-  .butn.white {
-    padding: 6px 12px;
-  }
-}
 
 .butn.in-cart {
-  background: yellow !important;
-  color: #121d33 !important;
-  font-size: 20px !important;
-  font-weight: 700 !important;
+  background: yellow;
+  color: #121d33;
 }
 .butn.white.in-cart {
-  background: yellow !important;
-  border: 1.4px solid #121d33 !important;
-  color: #121d33 !important;
-  font-size: 20px !important;
-  font-weight: 700 !important;
+  background: yellow;
+  border: 1.4px solid #121d33;
+  color: #121d33;
 }
 
 .butn.in-cart:hover:after {
-  background: #121d33 !important;
-  color: #fff !important;
+  background: #121d33;
+  color: #fff;
 }
 .butn.in-cart:hover {
-  background: #fff !important;
-  color: #fff !important;
+  background: #fff;
+  color: #fff;
 }
 
 .butn.white.in-cart:hover:after {
-  background: #fff !important;
-  color: #121d33 !important;
+  background: #fff;
+  color: #121d33;
 }
 .butn.white.in-cart:hover {
-  background: #121d33 !important;
+  background: #121d33;
   border: 1.4px solid #121d33 !important;
-  color: #121d33 !important;
+  color: #121d33;
 }
 
 
