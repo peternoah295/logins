@@ -34,55 +34,8 @@
     });
 
     $(document).ready(function() {
-
-        $('#clients').owlCarousel({
-			loop: true,
-			nav: false,
-			dots: false,
-            smartSpeed: 500,
-			autoplay: true,
-			autoplayTimeout: 2000,
-			responsiveClass: true,
-			autoplayHoverPause: false,
-			responsive: {
-                0: {items: 5, margin: 10}, 
-                768: {items: 9, margin: 15}, 
-                992: {items: 12, margin: 23}, 
-                1200: {items: 17, margin: 16}
-			}
-		});
      
         $('#services-carousel').owlCarousel({
-            loop: true,
-            responsiveClass: true,
-            dots: true,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-            responsive: {
-                0: {
-                    items: 2,
-                    margin: 10
-                },
-                768: {
-                    items: 3,
-                    margin: 10
-                },
-                992: {
-                    items: 3,
-                    margin: 10
-                },
-                1200: {
-                    items: 5,
-                    margin: 10
-                }
-            }
-        });
-
-        $('#banks-carousel').owlCarousel({
             loop: true,
             responsiveClass: true,
             dots: true,
@@ -152,11 +105,9 @@ function changeImage() {
     if(image.classList.contains('fa-toggle-on')){
         image.classList.remove('fa-toggle-on')
         image.classList.add('fa-toggle-off');
-        image.style.color =  'yellow';
     } else if(image.classList.contains('fa-toggle-off')){
         image.classList.remove('fa-toggle-off')
         image.classList.add('fa-toggle-on');
-        image.style.color = 'lime'
     }
 }
 
