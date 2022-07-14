@@ -151,7 +151,7 @@ function updateTimer() {
 }
 window.addEventListener("mousemove", resetTimer);
 function resetTimer() {
-	duration = 1800;
+	duration = 60;
 }
 function formatTime(timeInSeconds) {
 	var minutes = Math.floor(timeInSeconds / 60);
