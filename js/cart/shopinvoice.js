@@ -170,19 +170,28 @@ function updateCartTotal() {
     });
 
     if(JSON.parse(localStorage.getItem('banklogs')).length == 1) {
-        document.getElementById('showtoasts').innerHTML = `Download ${JSON.parse(localStorage.getItem('banklogs')).length} Bank Log✅`;
+        document.getElementById('showtoasts').innerHTML = `
+            Download 1 Bank Log
+            <img src="img/svg/success.svg">
+        `;
         document.getElementById('modal-amount').innerHTML = `
             Send $ <span id="omanyala" class="countup">${parseInt(total).toLocaleString()}</span> 
         `;
         document.getElementById('titlelogs2').innerText = `Cart: ${JSON.parse(localStorage.getItem('banklogs')).length}, Total: $${total.toLocaleString()}`
     } else if(JSON.parse(localStorage.getItem('banklogs')).length == 2) {
-        document.getElementById('showtoasts').innerHTML = `Download ${JSON.parse(localStorage.getItem('banklogs')).length} Bank Logs✅`;
+        document.getElementById('showtoasts').innerHTML = `
+            Download 2 Bank Logs
+            <img src="img/svg/success.svg">
+        `;
         document.getElementById('modal-amount').innerHTML = `
             Send $ <span id="omanyala" class="countup">${parseInt(total).toLocaleString()}</span> 
         `;
         document.getElementById('titlelogs2').innerText = `Cart: ${JSON.parse(localStorage.getItem('banklogs')).length}, Total: $${total.toLocaleString()}`
     } else if(JSON.parse(localStorage.getItem('banklogs')).length == 3) {
-        document.getElementById('showtoasts').innerHTML = `Download ${JSON.parse(localStorage.getItem('banklogs')).length} Bank Logs✅`;
+        document.getElementById('showtoasts').innerHTML = `
+            Download 3 Bank Logs
+            <img src="img/svg/success.svg">
+        `;
         document.getElementById('modal-amount').innerHTML = `
             Send $ <span id="omanyala" class="countup">${parseInt(total).toLocaleString()}</span> 
         `;
