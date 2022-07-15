@@ -82,8 +82,7 @@ html {
 
 
   .btn img{
-	width: 27px;
-	border-radius: 50%;
+	height: 27px;
   }
 
   .banner-words-wrapper {
