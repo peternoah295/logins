@@ -227,8 +227,7 @@ function addToCartClicked(event){
     var info4 = btn.parentElement.children[4].innerText;
     var info5 = btn.parentElement.children[5].innerText;
     var info6 = btn.parentElement.children[6].innerText;
-    var info7 = btn.parentElement.children[7].innerText;
-    var account = btn.parentElement.children[8].innerText;
+    var account = btn.parentElement.children[7].innerText;
     
 
     $("#exampleModal").on("show.bs.modal", function (event) {
@@ -243,7 +242,6 @@ function addToCartClicked(event){
       modal.find(".info4 p").text(info4);
       modal.find(".info5 p").text(info5);
       modal.find(".info6 p").text(info6);
-      modal.find(".info7 p").text(info7);
       modal.find(".image p").text(image);
       modal.find(".account p").text(account);
     });

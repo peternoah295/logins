@@ -32,7 +32,6 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
         var info4 = `<td>${data.info4}</td>`
         var info5 = `<td>${data.info5}</td>`
         var info6 = `<td>${data.info6}</td>`
-        var info7 = `<td>${data.info7}</td>`
         
         table1.row.add([
             image,
@@ -46,7 +45,6 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
             info4,   
             info5,   
             info6,   
-            info7,
             website,      
         ]).draw();
     });
@@ -80,7 +78,6 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
             <td>${items[i].info4}</td>
             <td>${items[i].info5}</td>
             <td>${items[i].info6}</td>
-            <td>${items[i].info7}</td>
             <td>${items[i].website}</td>
         `;
 
@@ -99,7 +96,7 @@ function removeCartItem(event) {
     var price = cartItem.children[4].innerText;
     var balance = cartItem.children[1].innerText;
     var account = cartItem.children[2].innerText;
-    var website = cartItem.children[12].innerText;
+    var website = cartItem.children[11].innerText;
     var image = cartItem.children[0].children[0].src;
     var info1 = cartItem.children[5].innerText;
     var info2 = cartItem.children[6].innerText;
@@ -107,13 +104,12 @@ function removeCartItem(event) {
     var info4 = cartItem.children[8].innerText;
     var info5 = cartItem.children[9].innerText;
     var info6 = cartItem.children[10].innerText;
-    var info7 = cartItem.children[11].innerText;
-    removeItemFromCart(price, balance, account,website,image,info1,info2,info3,info4,info5,info6,info7);
+    removeItemFromCart(price, balance, account,website,image,info1,info2,info3,info4,info5,info6);
     buttonClicked.parentElement.parentElement.remove();
     updateCartTotal()
 }
 
-function removeItemFromCart(price, balance,account,website,image,info1,info2,info3,info4,info5,info6,info7){
+function removeItemFromCart(price, balance,account,website,image,info1,info2,info3,info4,info5,info6){
     let item = {
         price: price,
         balance: balance,
@@ -125,8 +121,7 @@ function removeItemFromCart(price, balance,account,website,image,info1,info2,inf
         info3: info3,
         info4: info4,
         info5: info5,
-        info6: info6,
-        info7: info7
+        info6: info6
     }
     function checkAdult(items) {
         return JSON.stringify(items) !== JSON.stringify(item)
