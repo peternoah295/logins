@@ -1646,7 +1646,7 @@ label.error {
 }
 @media screen and (max-width: 570px) {
   #exampleModal .modal-dialog {
-    top: 7vh !important;
+    top: 9.2vh !important;
     max-width: 92vw !important;
   }
 }
