@@ -35,13 +35,13 @@ auth.onAuthStateChanged(user => {
 		var theaddress = themail.substring(0, themail.indexOf('@'));
 		jinaHolder.innerText = theaddress;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-	} else if (user.phoneNumber && user.displayName) {
-		jinaHolder.innerText = user.displayName;
-		jinaHolder2.innerText = 'User ID: ' + user.uid;
-	} else if (user.phoneNumber && !user.displayName) {
+	} else if (user.phoneNumber) {
 		jinaHolder.innerText = user.phoneNumber;
 		jinaHolder2.innerText = 'User ID: ' + user.uid;
-	} 
+	} else if(user.isAnonymous){
+		jinaHolder.innerText = 'Anonymous';
+		jinaHolder2.innerText = 'User ID: ' + user.uid;
+	}
 });
 
 const logOut = document.getElementById('logout');
