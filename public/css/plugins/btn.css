@@ -81,15 +81,10 @@ html {
   }
 
 
-
-
-
-
-
-
-
-
-
+  .btn img{
+	width: 27px;
+	border-radius: 50%;
+  }
 
   .banner-words-wrapper {
 	display: inline-block;
