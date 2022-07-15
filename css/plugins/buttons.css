@@ -1644,6 +1644,9 @@ label.error {
 #exampleModal .modal-body div p {
   background: transparent !important;
 }
+#exampleModal .modal-dialog{
+  top: 4.2vh !important;
+}
 @media screen and (max-width: 570px) {
   #exampleModal .modal-dialog {
     top: 9.2vh !important;
