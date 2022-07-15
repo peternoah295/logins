@@ -174,7 +174,7 @@ header.scrollHeader .navbar-default {
   }
 
   .navbar-toggler:after {
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
     position: absolute;
     top: 20px;
     right: 12px;
@@ -184,7 +184,7 @@ header.scrollHeader .navbar-default {
     content: "";
   }
   .navbar-toggler:before {
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
     position: absolute;
     top: 12px;
     right: 12px;
