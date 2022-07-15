@@ -146,7 +146,7 @@ header.scrollHeader .navbar-default {
 }
 @media screen and (min-width: 1092px) {
   .cart-list > li {
-    padding: 5.2px;
+    padding: 1.4px;
   }
   .header-style2 {
     position: absolute;
