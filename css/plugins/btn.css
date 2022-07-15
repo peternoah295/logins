@@ -195,7 +195,8 @@ html {
 	}
   }
   ::placeholder {
-	color: darkslategrey !important;
+	color: #121d33 !important;
+	text-align: center !important;
 	opacity: 1;
   }
   :-ms-input-placeholder {
