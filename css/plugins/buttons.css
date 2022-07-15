@@ -990,11 +990,8 @@ select {
   font-weight: 500;
   padding: 2px 0;
 }
-.pricing-list ul li:nth-child(8) {
-  font-size: 15px;
-}
 
-.pricing-list ul li:nth-child(9) {
+.pricing-list ul li:nth-child(8) {
   font-size: 16px !important;
 }
 .pricing-list ul li:nth-child(1){
@@ -1030,9 +1027,6 @@ select {
     font-size: 15px;
   }
   .pricing-list ul li:nth-child(8) {
-    font-size: 14px;
-  }
-  .pricing-list ul li:nth-child(9) {
     font-size: 15px !important;
   }
 }
@@ -1042,7 +1036,7 @@ select {
     font-weight: 500;
     padding: 2px 0;
   }
-  .pricing-list ul li:nth-child(9) {
+  .pricing-list ul li:nth-child(8) {
     font-size: 14px !important;
   }
 }
@@ -1051,9 +1045,6 @@ select {
     font-size: 30px;
   }
   .pricing-list ul li:nth-child(8) {
-    font-size: 13px;
-  }
-  .pricing-list ul li:nth-child(9) {
     font-size: 13px !important;
   }
 }
