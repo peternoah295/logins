@@ -197,68 +197,6 @@ function displayImage(row, images) {
 	})
 }
 
-
-const editInformation = () => {
-	const newNameAndPhoto = {
-		newDisplayName: displayNameField.value
-	};
-	const user = auth.currentUser;
-	changeNameAndPhoto(user, newNameAndPhoto);
-
-}
-
-const changeNameAndPhoto = (user, newNameAndPhoto) => {
-	const {
-		newDisplayName
-	} = newNameAndPhoto;
-	if (newDisplayName) {
-		user.updateProfile({
-				displayName: newDisplayName
-			})
-			.then(() => {
-				alert('Display Name Updated Successfully !');
-				document.getElementById('jinaHolder').innerText = displayNameField.value;
-			})
-			.catch(error => {
-				console.error(error);
-			})
-	}
-}
-
-editButton.addEventListener('click', editInformation);
-document.getElementById('edit-form').addEventListener('submit', editInformation);
-
-
-
-
-document.getElementById('profile-pic').addEventListener('change', (event) => {
-	const file = event.target.files[0];
-	const storageRef = firebase.storage().ref('profiles/images' + file.name);
-	storageRef.put(file).on('state_changed', (snapshot) => {
-		const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-		const progressBar_2 = document.getElementById("pablos-2");
-		progressBar_2.style.width = progress + '%';
-		document.getElementById('escoz-2').innerHTML = 'Upload Progress: ' + progress + '%';
-	}, (err) => {
-		console.log('an error has occurred')
-	}, async () => {
-		const url = await storageRef.getDownloadURL();
-
-		const user = auth.currentUser;
-		user.updateProfile({
-				photoURL: url
-			})
-			.then(() => {
-				window.location.reload();
-			})
-			.catch(error => {
-				console.error(error);
-			})
-
-	});
-});
-
-
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
@@ -415,13 +353,3 @@ function markCompleted(id) {
 }
 
 getItems();
-
-
-var ua = navigator.userAgent.toLowerCase();
-if (ua.indexOf('safari') != -1) {
-	if (ua.indexOf('chrome') > -1 || ua.indexOf('edg') > -1) {
-		document.getElementById('edit-info').style.display = 'block'
-	} else {
-		document.getElementById('edit-info').style.display = 'none'
-	}
-}
