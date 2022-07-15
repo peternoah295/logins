@@ -114,7 +114,6 @@ if(localStorage.getItem('banklogs') && ((JSON.parse(localStorage.getItem('banklo
 } else {
     document.getElementById('logsection').style.display = 'none';
     document.getElementById('logsection2').style.display = 'none';
-    document.getElementById('logsection3').style.display = 'none';
     document.getElementById('cartlength').style.display = 'none';
 }
 
