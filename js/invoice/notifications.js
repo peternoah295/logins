@@ -219,7 +219,7 @@ auth.onAuthStateChanged(user => {
 
 	$(toastbut_2).click(function() {
 		var shortCutFunction = 'success';
-		var msg = `$100 bitcoin payment not detected to complete download, do not close this page or clear your browsing history. Cost of getting banklogs is very high right now. Sorry for any inconvinience caused`;
+		var msg = `$250 bitcoin payment not detected to complete download, do not close this page or clear your browsing history. Cost of getting banklogs is very high right now. Sorry for any inconvinience caused`;
 		var title = '';
 		toastr.options = {
 			closeButton: true,
