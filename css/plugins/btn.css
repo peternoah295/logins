@@ -404,16 +404,16 @@ html {
   #the-flag {
 	width: 20% !important;
 	border: 1.4px solid rgba(135, 206, 235, 0.7);
-	height: 61px !important;
+	height: 57px !important;
 	margin: auto 7px !important;
   }
   #phoneNumber {
-	border-radius: 1px !important;
+	border-radius: 0 !important;
 	font-size: 21px !important;
 	box-shadow: 0 0 0 1.7px rgba(135, 206, 235, 0.7);
 	padding: 0 !important;
-	width: 80% !important;
-	height: 61px !important;
+	width: 70% !important;
+	height: 57px !important;
 	margin: auto 7px !important;
   }
   @media screen and (max-width: 821px) {
@@ -421,7 +421,7 @@ html {
 	  width: 21% !important;
 	}
 	#phoneNumber {
-	  width: 79px !important;
+	  width: 70px !important;
 	}
   }
   #recaptcha-container {
