@@ -277,7 +277,7 @@
 }
 .scroll-to-top:hover {
   background: #fff;
-  transform: scale(1.5);
+  transform: scale(1.07);
 }
 .scroll-to-top:visited {
   text-decoration: none;
