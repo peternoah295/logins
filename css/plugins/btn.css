@@ -69,17 +69,9 @@ html {
 	background: yellow;
 	color: #121d33;
   }
-  .btn.aqua{
-	background: aqua;
-	color: #121d33;
-  }
   .btn.gold:hover{
 	color: aqua;
   }
-  .btn.aqua:hover{
-	color: aqua;
-  }
-
 
   .btn img{
 	height: 27px;
