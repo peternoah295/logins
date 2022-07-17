@@ -1949,3 +1949,7 @@ label.error {
 .thegold a{
   padding: 10px 0 !important;
 }
+
+.blog-post{
+  display: none !important;
+}
