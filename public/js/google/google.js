@@ -1,3 +1,5 @@
+const mailField = document.getElementById('exampleInputEmail');
+const signUp = document.getElementById('signUp');
 const signGoogle = document.getElementById("signGoogle");
 const signYahoo = document.getElementById('signYahoo');
 const signAnony = document.getElementById('signAnony');
@@ -23,6 +25,48 @@ const auth = firebase.auth();
 
 const sendVerificationEmail = () => {
 	auth.currentUser.sendEmailVerification()
+}
+
+const signUpFunction = () => {
+	event.preventDefault();
+	const email = mailField.value;
+	var actionCodeSettings = {
+		url: 'https://logins.id',
+		handleCodeInApp: true,
+	};
+	auth.sendSignInLinkToEmail(email, actionCodeSettings)
+		.then(() => {
+			alert('Check your email ' + email + ' inbox for a verification link');
+			window.localStorage.setItem('emailForSignIn', email);
+		})
+		.catch(error => {
+			alert(error.message);
+		});
+}
+signUp.addEventListener('click', signUpFunction);
+document.getElementById('the-form').addEventListener('submit', signUpFunction);
+
+
+if (auth.isSignInWithEmailLink(window.location.href)) {
+	var email = window.localStorage.getItem('emailForSignIn');
+	if (!email) {
+		localStorage.setItem('the-email', true)
+		email = window.prompt('Enter your email for confirmation');
+	}
+	auth.signInWithEmailLink(email, window.location.href)
+		.then((result) => {
+			if (localStorage.getItem('the-email')) {
+				window.location.assign('dashboard');
+				sendVerificationEmail();
+			} else {
+				alert('Return to previous tab, email has been confirmed')
+				window.close();
+				sendVerificationEmail();
+			}
+		})
+		.catch((error) => {
+			alert('Wrong email entered')
+		});
 }
 
 const signInWithGoogle = () => {
